@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://b5nk1tsswudcm"]
 
-[ext_resource type="Script" path="res://player/player_targeting_system/player_targeting_system.gd" id="1_b78qp"]
-[ext_resource type="Script" path="res://player/player_targeting_system/gui_reticle.gd" id="2_f0thc"]
-[ext_resource type="Script" path="res://player/player_targeting_system/eye_list.gd" id="2_y87dp"]
+[ext_resource type="Script" uid="uid://dtg8hw4k7lajt" path="res://player/player_targeting_system/player_targeting_system.gd" id="1_b78qp"]
+[ext_resource type="Script" uid="uid://y7c055sih0m4" path="res://player/player_targeting_system/gui_reticle.gd" id="2_f0thc"]
+[ext_resource type="Script" uid="uid://dmt4a5woanmjc" path="res://player/player_targeting_system/eye_list.gd" id="2_y87dp"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_dfo1h"]
 size = Vector3(8, 10, 14)

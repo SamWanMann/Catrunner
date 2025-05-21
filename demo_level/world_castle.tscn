@@ -1,18 +1,19 @@
-[gd_scene load_steps=29 format=3 uid="uid://uiw1spc0mevb"]
+[gd_scene load_steps=32 format=3 uid="uid://uiw1spc0mevb"]
 
 [ext_resource type="PackedScene" uid="uid://bn7vh6v8mmgja" path="res://player/player_charbody3d.tscn" id="1_70e33"]
 [ext_resource type="PackedScene" uid="uid://cnv210lnfdoan" path="res://interactable objects/doors/door_object.tscn" id="2_4fq4l"]
 [ext_resource type="PackedScene" uid="uid://bp5aql2ip2qwi" path="res://interactable objects/doors/gate_object.tscn" id="3_0mbes"]
 [ext_resource type="PackedScene" uid="uid://b5y7f5xgkpa1d" path="res://interactable objects/ladder/ladder.tscn" id="4_a4kod"]
 [ext_resource type="PackedScene" uid="uid://c3yajhej5laa7" path="res://interactable objects/chest/chest.tscn" id="5_b73po"]
-[ext_resource type="Script" path="res://enemy/patrol_point.gd" id="6_i73lt"]
+[ext_resource type="Script" uid="uid://bf0lww8b3iu18" path="res://enemy/patrol_point.gd" id="6_i73lt"]
 [ext_resource type="PackedScene" uid="uid://bbhrq4snasi1i" path="res://demo_level/stagingCSG.tscn" id="7_p8o0k"]
 [ext_resource type="PackedScene" uid="uid://daae7mgofoegu" path="res://interactable objects/spawn_site/spawn_site.tscn" id="9_cpxbt"]
 [ext_resource type="PackedScene" uid="uid://cev0hfdkmno27" path="res://interactable objects/lever/lever_object.tscn" id="10_10w6y"]
-[ext_resource type="Script" path="res://ui/contol_card.gd" id="11_4norq"]
+[ext_resource type="Script" uid="uid://c4gyq6vcb2e83" path="res://ui/contol_card.gd" id="11_4norq"]
 [ext_resource type="Texture2D" uid="uid://c46nfvbeeb3pr" path="res://ui/panel-border-027.png" id="12_1f7l8"]
-[ext_resource type="Script" path="res://cameras/area_cam/area_cam.gd" id="13_2aall"]
+[ext_resource type="Script" uid="uid://d30pojhou0uqf" path="res://cameras/area_cam/area_cam.gd" id="13_2aall"]
 [ext_resource type="AudioStream" uid="uid://ddfdcmyfdq6fi" path="res://audio/bone_in_the_walls__level_loop_session.ogg" id="14_wsft0"]
+[ext_resource type="Shader" uid="uid://ca6bksrqj1j3m" path="res://demo_level/world_castle.gdshader" id="15_5c3mw"]
 [ext_resource type="PackedScene" uid="uid://cq2lr6sclvutj" path="res://enemy/enemy_base_root_motion.tscn" id="15_yac72"]
 
 [sub_resource type="Gradient" id="Gradient_sxwq5"]
@@ -89,6 +90,26 @@ colors = PackedColorArray(0, 0, 0, 0.670588)
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_6jfgq"]
 gradient = SubResource("Gradient_f4sec")
 width = 8
+
+[sub_resource type="BoxMesh" id="BoxMesh_tywe3"]
+size = Vector3(200, 200, 200)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6npoa"]
+render_priority = 0
+shader = ExtResource("15_5c3mw")
+shader_parameter/depth_threshold = 0.05
+shader_parameter/reverse_depth_threshold = 0.25
+shader_parameter/normal_threshold = 0.6
+shader_parameter/darken_amount = 0.3
+shader_parameter/lighten_amount = 1.5
+shader_parameter/normal_edge_bias = Vector3(1, 1, 1)
+shader_parameter/light_direction = Vector3(1, 1, 1)
+shader_parameter/dither_repeat = 1.0
+shader_parameter/dither_strength = 0.7
+shader_parameter/min_dither_brightness = 0.03
+shader_parameter/color_a = Vector4(0, 0, 0, 0.3)
+shader_parameter/color_b = Vector4(0, 0, 0, 1)
+shader_parameter/bayer_mode = 4
 
 [node name="World" type="Node3D"]
 
@@ -340,6 +361,10 @@ Hold SpaceBar/Circle = Sprint"
 stream = ExtResource("14_wsft0")
 volume_db = -18.0
 autoplay = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_tywe3")
+surface_material_override/0 = SubResource("ShaderMaterial_6npoa")
 
 [editable path="Interactables/Ladder"]
 [editable path="Interactables/Ladder2"]

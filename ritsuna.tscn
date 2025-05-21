@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh33tkql2myyb"]
+
+[ext_resource type="PackedScene" uid="uid://dvvuk5dwsdya6" path="res://player/Ritsuna.glb" id="1_yxga1"]
+
+[node name="Ritsuna" instance=ExtResource("1_yxga1")]
