@@ -1,0 +1,32 @@
+[gd_resource type="Environment" load_steps=4 format=3 uid="uid://iq55g4pv88rt"]
+
+[ext_resource type="Texture2D" uid="uid://dpae5qlfceuwc" path="res://player/futurecityBG.png" id="1_jcxcn"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_5c3mw"]
+panorama = ExtResource("1_jcxcn")
+
+[sub_resource type="Sky" id="Sky_y7d3g"]
+sky_material = SubResource("PanoramaSkyMaterial_5c3mw")
+
+[resource]
+background_mode = 2
+sky = SubResource("Sky_y7d3g")
+ambient_light_source = 3
+ambient_light_energy = 1.62
+reflected_light_source = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+fog_light_color = Color(0, 0, 0, 1)
+fog_light_energy = 0.74
+fog_density = 0.0101
+fog_aerial_perspective = 0.275
+fog_sky_affect = 0.0
+fog_height = 0.9
+fog_height_density = 0.1983
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0225
+volumetric_fog_length = 14.1
+adjustment_enabled = true
+adjustment_brightness = 0.96

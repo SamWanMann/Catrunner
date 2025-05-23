@@ -188,6 +188,7 @@ start_signal = "equipped_changed"
 
 [node name="TorchLight" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.510352, 0)
+visible = false
 light_color = Color(1, 0.752941, 0.4, 1)
 light_volumetric_fog_energy = 0.0
 light_size = 0.5

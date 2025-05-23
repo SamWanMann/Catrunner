@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgo84heh1uc5l"
+path="res://.godot/imported/Bot Of War (God Of War Theme) - Astro Bot OST Official Soundtrack Original Score.mp3-8b15c82862483781df831b2b7f1f284c.mp3str"
+
+[deps]
+
+source_file="res://player/Bot Of War (God Of War Theme) - Astro Bot OST Official Soundtrack Original Score.mp3"
+dest_files=["res://.godot/imported/Bot Of War (God Of War Theme) - Astro Bot OST Official Soundtrack Original Score.mp3-8b15c82862483781df831b2b7f1f284c.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
