@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://cev0hfdkmno27" path="res://interactable objects/lever/lever_object.tscn" id="10_10w6y"]
 [ext_resource type="Script" uid="uid://c4gyq6vcb2e83" path="res://ui/contol_card.gd" id="11_4norq"]
 [ext_resource type="Texture2D" uid="uid://c46nfvbeeb3pr" path="res://ui/panel-border-027.png" id="12_1f7l8"]
-[ext_resource type="AudioStream" uid="uid://bgo84heh1uc5l" path="res://player/Bot Of War (God Of War Theme) - Astro Bot OST Official Soundtrack Original Score.mp3" id="14_5c3mw"]
+[ext_resource type="AudioStream" uid="uid://bg3n3dt71bdb8" path="res://player/Tank.mp3" id="14_5c3mw"]
 [ext_resource type="Shader" uid="uid://ca6bksrqj1j3m" path="res://demo_level/world_castle.gdshader" id="15_5c3mw"]
 [ext_resource type="PackedScene" uid="uid://cq2lr6sclvutj" path="res://enemy/enemy_base_root_motion.tscn" id="15_yac72"]
 

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://big1uwy2d2rfk"]
+
+[ext_resource type="PackedScene" uid="uid://etqys8f7n6sa" path="res://player/City.glb" id="1_noarx"]
+[ext_resource type="PackedScene" uid="uid://d2yx4so86fgco" path="res://player/City2.glb" id="2_a0tk4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="City" parent="." instance=ExtResource("1_noarx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.9171, 295.856, 73.1784)
+visible = false
+
+[node name="City2" parent="." instance=ExtResource("2_a0tk4")]
+transform = Transform3D(8, 0, 0, 0, 8, 0, 0, 0, 8, -47.551, -0.884936, 12.379)
