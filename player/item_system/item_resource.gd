@@ -13,5 +13,3 @@ class_name ItemResource
 var count = 1
 @export var physical_instance : PackedScene
 @export var texture : Texture2D
-
-

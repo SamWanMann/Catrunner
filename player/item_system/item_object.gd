@@ -1,6 +1,8 @@
 extends RigidBody3D
 class_name ItemObject
 
+@onready var potion: ItemObject = $"."
+
 @export var target_group :String = "player"
 @export_enum("HURT","HEAL") var effect_type :String = "HEAL"
 @export_enum("DRINK","THROWN","OTHER") var object_type : String= "DRINK"
@@ -22,9 +24,12 @@ func activate():
 	use_item = true
 	await get_tree().create_timer(time_to_live).timeout
 	queue_free()
+	
+
 
 func _on_area_3d_body_entered(body):
-	touched_target.emit()
+	#touched_target.emit()
+	
 	if body.is_in_group(target_group):
 		if effect_type == "HEAL":
 			if body.has_method("heal"):

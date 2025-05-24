@@ -118,18 +118,19 @@ func rotate_character():
 	var target_rotation = current_rotation.slerp(Quaternion(Vector3.UP, atan2(new_direction.x, new_direction.z)), rate)
 	global_transform.basis = Basis(target_rotation)
 
-func evaluate_state(): ## depending on distance to target, run or walk
-	if target:
-		if target == default_target:
-			current_state = state.FREE
-		else:
-			if target:
-				var current_distance = global_position.distance_to(target.global_position)
-				if current_distance > combat_range:
-					current_state = state.CHASE
-				elif current_distance <= combat_range && current_state != state.COMBAT:
-					current_state = state.COMBAT
+func evaluate_state():
+	if !target:
+		return
 
+	var dist := global_position.distance_to(target.global_position)
+
+	if target == default_target:
+		update_current_state(state.FREE)
+	elif dist > combat_range:
+		update_current_state(state.CHASE)
+	elif dist <= combat_range:
+		update_current_state(state.COMBAT)
+		
 func _on_combat_timer_timeout():
 	if current_state == state.COMBAT:
 		combat_randomizer()

@@ -29,7 +29,7 @@ radial_segments = 12
 rings = 1
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xc6p0"]
-size = Vector3(0.2, 0.2, 0.2)
+size = Vector3(1.77205, 0.2, 1.65571)
 
 [sub_resource type="Gradient" id="Gradient_nijdr"]
 offsets = PackedFloat32Array(0.389571, 0.819018, 1)
@@ -83,7 +83,7 @@ orientation = 2
 collision_layer = 0
 collision_mask = 3
 script = ExtResource("1_yt1vo")
-power = 2
+power = 3
 time_to_live = 1.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -100,6 +100,7 @@ mesh = SubResource("CylinderMesh_nwi5a")
 collision_mask = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.158484, 0, -0.0534912)
 shape = SubResource("BoxShape3D_xc6p0")
 
 [node name="Aura" type="GPUParticles3D" parent="."]
