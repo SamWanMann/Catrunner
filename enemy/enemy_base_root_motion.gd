@@ -195,27 +195,27 @@ func death():
 	current_state = state.DEAD
 	hurt_cool_down.start(10)
 	remove_from_group(group_name)
-	if ragdoll_death:
-		apply_ragdoll()
-	else:
-		death_started.emit()
+	#if ragdoll_death:
+		#apply_ragdoll()
+	#else:
+	death_started.emit()
 	await get_tree().create_timer(4).timeout
 	queue_free()
 	
 
-func apply_ragdoll():
-	general_skeleton.physical_bones_start_simulation()
-	animation_tree.active = false
-	
-	# if you want to stop the rag doll after a few seconds, uncomment this code.
-	await get_tree().create_timer(3).timeout
-	var bone_transforms = []
-	var bone_count = general_skeleton.get_bone_count()
-	for i in bone_count:
-		bone_transforms.append(general_skeleton.get_bone_global_pose(i))
-	general_skeleton.physical_bones_stop_simulation()
-	for i in bone_count:
-		general_skeleton.set_bone_global_pose_override(i, bone_transforms[i],1,true)
+#func apply_ragdoll():
+	#general_skeleton.physical_bones_start_simulation()
+	#animation_tree.active = false
+	#
+	## if you want to stop the rag doll after a few seconds, uncomment this code.
+	#await get_tree().create_timer(3).timeout
+	#var bone_transforms = []
+	#var bone_count = general_skeleton.get_bone_count()
+	#for i in bone_count:
+		#bone_transforms.append(general_skeleton.get_bone_global_pose(i))
+	#general_skeleton.physical_bones_stop_simulation()
+	#for i in bone_count:
+		#general_skeleton.set_bone_global_pose_override(i, bone_transforms[i],1,true)
 
 func _on_animation_measured(_new_length):
 	anim_length = _new_length - .05 # offset slightly for the process frame

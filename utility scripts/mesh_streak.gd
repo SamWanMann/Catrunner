@@ -99,9 +99,9 @@ func material_check(): ## Create a new default material for the streak
 		custom_material.cull_mode = BaseMaterial3D.CULL_DISABLED
 		var new_grad_texture : GradientTexture1D = GradientTexture1D.new()
 		var new_gradient : Gradient = Gradient.new()
-		new_gradient.set_color(0,Color(1,1,1,.3))
+		new_gradient.set_color(0,Color(1,0,0,.01))
 		new_gradient.set_offset(0,.6)
-		new_gradient.set_color(1,Color(1,1,1,0))
+		new_gradient.set_color(1,Color(1,0,0,.06))
 		new_gradient.set_offset(1,1)	
 		new_grad_texture.gradient = new_gradient
 		custom_material.albedo_texture = new_grad_texture
