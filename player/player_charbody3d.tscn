@@ -1,4 +1,4 @@
-[gd_scene load_steps=415 format=4 uid="uid://bn7vh6v8mmgja"]
+[gd_scene load_steps=418 format=4 uid="uid://bn7vh6v8mmgja"]
 
 [ext_resource type="Script" uid="uid://bi3lstvunb1c8" path="res://player/player_charbody3D.gd" id="1_4per7"]
 [ext_resource type="Texture2D" uid="uid://cu4lhfd4yvri1" path="res://player/Ritsuna__10.png" id="2_hx2g0"]
@@ -64,6 +64,7 @@
 [ext_resource type="Script" uid="uid://dv6uceugwsbsu" path="res://ui/health_bar.gd" id="38_auti3"]
 [ext_resource type="Script" uid="uid://brs2u7xlg77t3" path="res://enemy/health_system.gd" id="41_x7csm"]
 [ext_resource type="PackedScene" uid="uid://r31q8k2be4qk" path="res://player/player_interact_sensors/sensor_cast.tscn" id="44_gyr7x"]
+[ext_resource type="Shader" uid="uid://ca6bksrqj1j3m" path="res://demo_level/world_castle.gdshader" id="65_8bv0s"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6bd2"]
 resource_name = "N00_000_00_Body_00_SKIN (Instance)"
@@ -70084,6 +70085,26 @@ material = SubResource("StandardMaterial3D_ygg1y")
 size = Vector2(0.02, 0.02)
 orientation = 2
 
+[sub_resource type="BoxMesh" id="BoxMesh_0rpov"]
+size = Vector3(800, 800, 800.011)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bktyo"]
+render_priority = 0
+shader = ExtResource("65_8bv0s")
+shader_parameter/depth_threshold = 0.05
+shader_parameter/reverse_depth_threshold = 0.25
+shader_parameter/normal_threshold = 0.6
+shader_parameter/darken_amount = 0.3
+shader_parameter/lighten_amount = 1.5
+shader_parameter/normal_edge_bias = Vector3(1, 1, 1)
+shader_parameter/light_direction = Vector3(1, 1, 1)
+shader_parameter/dither_repeat = 1.0
+shader_parameter/dither_strength = 0.7
+shader_parameter/min_dither_brightness = 0.03
+shader_parameter/color_a = Vector4(0, 0, 0, 0.3)
+shader_parameter/color_b = Vector4(0, 0, 0, 1)
+shader_parameter/bayer_mode = 4
+
 [node name="PlayerCharacterBodySoulsBase" type="CharacterBody3D" node_paths=PackedStringArray("animation_tree", "weapon_system", "health_system", "inventory_system") groups=["player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.38419e-07, 0)
 collision_layer = 2
@@ -72410,5 +72431,9 @@ process_material = SubResource("ParticleProcessMaterial_4pi6a")
 draw_pass_1 = SubResource("PlaneMesh_1rh5k")
 
 [node name="SensorCast" parent="." instance=ExtResource("44_gyr7x")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_0rpov")
+surface_material_override/0 = SubResource("ShaderMaterial_bktyo")
 
 [connection signal="animation_started" from="AnimStateTree" to="AnimStateTree" method="_on_animation_started"]
