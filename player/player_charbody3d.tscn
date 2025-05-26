@@ -1,4 +1,4 @@
-[gd_scene load_steps=418 format=4 uid="uid://bn7vh6v8mmgja"]
+[gd_scene load_steps=415 format=4 uid="uid://bn7vh6v8mmgja"]
 
 [ext_resource type="Script" uid="uid://bi3lstvunb1c8" path="res://player/player_charbody3D.gd" id="1_4per7"]
 [ext_resource type="Texture2D" uid="uid://cu4lhfd4yvri1" path="res://player/Ritsuna__10.png" id="2_hx2g0"]
@@ -10,10 +10,8 @@
 [ext_resource type="Texture2D" uid="uid://x6y8ii5v1g72" path="res://player/Ritsuna__12.png" id="5_p77td"]
 [ext_resource type="Texture2D" uid="uid://b5tshlc6eirg" path="res://player/Ritsuna_Shader_NoneNormal.png" id="6_a28ye"]
 [ext_resource type="PackedScene" uid="uid://cppm5fkbguoqx" path="res://player/equipment_system/equipment/Ax.tscn" id="6_iekbc"]
-[ext_resource type="AudioStream" uid="uid://c318jpy76ckxp" path="res://audio/SoundFX/hit/hit_blunt_02.wav" id="6_poyxp"]
 [ext_resource type="Script" uid="uid://bexniysyxm4dh" path="res://audio/SoundFXSystem.gd" id="6_wnkxc"]
 [ext_resource type="Texture2D" uid="uid://dsxhvgp85c4xp" path="res://player/Ritsuna__13.png" id="7_geuxa"]
-[ext_resource type="PackedScene" uid="uid://g454n8wvwlm6" path="res://player/equipment_system/equipment/shield.tscn" id="7_yp4e6"]
 [ext_resource type="AudioStream" uid="uid://bl6briwljoa1t" path="res://audio/SoundFX/clang/clang_4.wav" id="8_adk4b"]
 [ext_resource type="Texture2D" uid="uid://ct7qookwrn6ar" path="res://player/Ritsuna__14.png" id="8_tjba4"]
 [ext_resource type="Texture2D" uid="uid://bah8cpwm7jbxw" path="res://player/Ritsuna__15.png" id="9_nmo1l"]
@@ -35,9 +33,7 @@
 [ext_resource type="AudioStream" uid="uid://cvkugbv6gb3l7" path="res://audio/SoundFX/clang/clang_3.wav" id="18_wrnle"]
 [ext_resource type="AudioStream" uid="uid://byiegy7na8aw6" path="res://audio/SoundFX/shuffle/shuffle_5.wav" id="19_dsm8d"]
 [ext_resource type="Script" uid="uid://cth5qlneb6eck" path="res://player/item_system/item_system.gd" id="19_j17nd"]
-[ext_resource type="PackedScene" uid="uid://dvs3icvtoe84r" path="res://player/equipment_system/equipment/torch_gadget.tscn" id="19_jgf1j"]
 [ext_resource type="Texture2D" uid="uid://dia0sepe108ld" path="res://player/Ritsuna__06.png" id="19_tasni"]
-[ext_resource type="AudioStream" uid="uid://tj8rf1hhm0r6" path="res://audio/SoundFX/cork/cork_04.wav" id="20_0kqb2"]
 [ext_resource type="Texture2D" uid="uid://c5bx8empy12af" path="res://player/Ritsuna__07.png" id="20_8sj15"]
 [ext_resource type="Texture2D" uid="uid://bhcas1trxpwnp" path="res://player/Ritsuna__09.png" id="21_k81e5"]
 [ext_resource type="AudioStream" uid="uid://b67qrpcr5t5ag" path="res://audio/SoundFX/swish/swish_4.wav" id="21_v0m5e"]
@@ -64,6 +60,7 @@
 [ext_resource type="Texture2D" uid="uid://c46nfvbeeb3pr" path="res://ui/panel-border-027.png" id="32_sdjc6"]
 [ext_resource type="Resource" uid="uid://8ujj54t15t8d" path="res://player/item_system/items/potion.tres" id="34_xeucu"]
 [ext_resource type="Script" uid="uid://c13bg1eqndjnk" path="res://ui/item_slot.gd" id="36_vymyb"]
+[ext_resource type="AudioStream" uid="uid://dxgxasl6fv2gd" path="res://audio/SoundFX/cork/cork_05.wav" id="37_k3xao"]
 [ext_resource type="Script" uid="uid://dv6uceugwsbsu" path="res://ui/health_bar.gd" id="38_auti3"]
 [ext_resource type="Script" uid="uid://brs2u7xlg77t3" path="res://enemy/health_system.gd" id="41_x7csm"]
 [ext_resource type="PackedScene" uid="uid://r31q8k2be4qk" path="res://player/player_interact_sensors/sensor_cast.tscn" id="44_gyr7x"]
@@ -70096,7 +70093,7 @@ floor_max_angle = 0.872665
 script = ExtResource("1_4per7")
 animation_tree = NodePath("AnimStateTree")
 weapon_system = NodePath("WeaponSystem")
-gadget_system = NodePath("GadgetSystem")
+gadget_system = NodePath("")
 health_system = NodePath("HealthSystem")
 inventory_system = NodePath("InventorySystem")
 hard_landing_height = 2.0
@@ -72022,64 +72019,6 @@ script = ExtResource("26_bvh58")
 lifetime = 0.0
 origin_node = NodePath("../RightHand/HandPivot")
 
-[node name="GadgetSystem" type="Node3D" parent="." node_paths=PackedStringArray("player_node", "held_mount_point", "stored_mount_point")]
-script = ExtResource("4_bebk6")
-player_node = NodePath("..")
-activate_signal = "gadget_started"
-change_signal = "gadget_change_started"
-held_mount_point = NodePath("LeftHand/HandPivot")
-stored_mount_point = NodePath("HipBone/HipPivot")
-
-[node name="LeftHand" type="BoneAttachment3D" parent="GadgetSystem"]
-transform = Transform3D(-0.400217, -0.216116, -0.893423, 0.400806, -0.87676, -0.0011792, -0.855675, -0.385143, 0.444461, 0.235049, 0.795281, -0.00735407)
-bone_name = "LeftHand"
-bone_idx = 110
-use_external_skeleton = true
-external_skeleton = NodePath("../../Ritsuna2/Armature/GeneralSkeleton")
-
-[node name="HandPivot" type="Marker3D" parent="GadgetSystem/LeftHand"]
-transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0.095, 0.02)
-
-[node name="Shield" parent="GadgetSystem/LeftHand/HandPivot" instance=ExtResource("7_yp4e6")]
-
-[node name="HipBone" type="BoneAttachment3D" parent="GadgetSystem"]
-transform = Transform3D(1, 1.58652e-08, -1.83553e-10, -1.56653e-08, 0.985429, -0.170089, -2.51762e-09, 0.170089, 0.985429, 2.04294e-09, 0.966204, -0.0498233)
-bone_name = "Chest"
-bone_idx = 3
-use_external_skeleton = true
-external_skeleton = NodePath("../../Ritsuna2/Armature/GeneralSkeleton")
-
-[node name="HipPivot" type="Marker3D" parent="GadgetSystem/HipBone"]
-transform = Transform3D(-0.970843, 0.139733, 0.194774, -0.156285, -0.985062, -0.072306, 0.181762, -0.100638, 0.97818, 0.0880577, -0.128088, -0.213723)
-
-[node name="Torch_Gadget" parent="GadgetSystem/HipBone/HipPivot" instance=ExtResource("19_jgf1j")]
-visible = false
-
-[node name="GadgetHitTarget" type="AudioStreamPlayer3D" parent="GadgetSystem" node_paths=PackedStringArray("triggering_node")]
-stream = ExtResource("6_poyxp")
-max_distance = 7.0
-script = ExtResource("6_wnkxc")
-triggering_node = NodePath("..")
-
-[node name="GadgetHitWorld" type="AudioStreamPlayer3D" parent="GadgetSystem" node_paths=PackedStringArray("triggering_node")]
-stream = ExtResource("8_adk4b")
-max_distance = 7.0
-script = ExtResource("6_wnkxc")
-triggering_node = NodePath("..")
-sound_trigger_signal = "hit_world"
-
-[node name="GadgetStreak" type="MeshInstance3D" parent="GadgetSystem" node_paths=PackedStringArray("origin_node")]
-skeleton = NodePath("../..")
-script = ExtResource("26_bvh58")
-origin_node = NodePath("../LeftHand/HandPivot")
-streak_bottom = Vector3(0, -0.2, 0)
-streak_top = Vector3(0, 0.5, 0)
-
-[node name="SignalSwitch" type="Node" parent="GadgetSystem/GadgetStreak" node_paths=PackedStringArray("signaling_node")]
-script = ExtResource("17_xborg")
-signaling_node = NodePath("../../..")
-start_signal = "gadget_started"
-
 [node name="ItemSystem" type="Node3D" parent="." node_paths=PackedStringArray("player_node", "signaling_node")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.38419e-07, 0)
 script = ExtResource("19_j17nd")
@@ -72107,7 +72046,7 @@ external_skeleton = NodePath("../../Ritsuna2/Armature/GeneralSkeleton")
 transform = Transform3D(0.983744, -0.179575, 0, 0.179575, 0.983745, 0, -6.51926e-09, 7.45058e-09, 1, 0.135887, 0.0248051, -0.0830496)
 
 [node name="DrinkItem" type="AudioStreamPlayer3D" parent="ItemSystem" node_paths=PackedStringArray("triggering_node")]
-stream = ExtResource("20_0kqb2")
+stream = ExtResource("37_k3xao")
 pitch_scale = 1.61
 script = ExtResource("6_wnkxc")
 triggering_node = NodePath("..")

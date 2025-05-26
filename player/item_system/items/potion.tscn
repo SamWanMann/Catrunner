@@ -226,7 +226,7 @@ time_to_live = 1.0
 shape = SubResource("BoxShape3D_o7hv0")
 
 [node name="Sketchfab_Scene" type="Node3D" parent="."]
-transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, -0.0816301, 0, 0.0667034)
+transform = Transform3D(0.669307, 0, 0, 0, 0.55758, 0, 0, 0, 0.7, -0.0816301, 0, 0.0667034)
 
 [node name="Sketchfab_model" type="Node3D" parent="Sketchfab_Scene"]
 transform = Transform3D(0.866749, -1.10744e-16, -0.498745, 0.498745, 1.92457e-16, 0.866749, 0, -1, 2.22045e-16, 0.0535412, -0.16151, -0.0946289)
