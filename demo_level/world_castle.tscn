@@ -88,15 +88,16 @@ navigation_mesh = SubResource("NavigationMesh_5c3mw")
 [node name="Staging" parent="NavigationRegion3D" instance=ExtResource("7_p8o0k")]
 
 [node name="PlayerCharacterBodySoulsBase" parent="." instance=ExtResource("1_70e33")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.9086, 0.474775, 21.9715)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.9086, 0.474775, 26.263)
 
 [node name="Enemies" type="Node" parent="."]
 
 [node name="EnemyBase" parent="Enemies" instance=ExtResource("15_yac72")]
 transform = Transform3D(-2.06632e-07, 0, 1, 0, 1, 0, -1, 0, -2.06632e-07, -10.4693, -4.76837e-07, 23.7447)
 
-[node name="EnemyBase2" parent="Enemies" instance=ExtResource("15_yac72")]
-transform = Transform3D(2.98023e-08, 0, 1, 0, 1, 0, -1, 0, 2.98023e-08, -62.0553, -4.76837e-07, 23.9472)
+[node name="EnemyBase2" parent="Enemies" node_paths=PackedStringArray("default_target") instance=ExtResource("15_yac72")]
+transform = Transform3D(-0.834309, 0, -0.551296, 0, 1, 0, 0.551296, 0, -0.834309, -62.0553, -4.76837e-07, 23.9472)
+default_target = NodePath("../PatrolPath")
 
 [node name="EnemyBase3" parent="Enemies" instance=ExtResource("15_yac72")]
 transform = Transform3D(-0.518131, 0, 0.855301, 0, 1, 0, -0.855301, 0, -0.518131, -35.9215, 3.8271, 16.6378)
@@ -120,11 +121,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.7816, 14, 0.487746)
 transform = Transform3D(0.0685725, 0, 0.997646, 0, 1, 0, -0.997646, 0, 0.0685725, -60.3035, 52, 29.9481)
 
 [node name="PatrolPath" type="Path3D" parent="Enemies"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4471, 0, 30.6534)
+transform = Transform3D(0.829516, 0, 0.558484, 0, 1, 0, -0.558484, 0, 0.829516, -61.6636, 0, 27.6244)
 curve = SubResource("Curve3D_2c2rs")
 
 [node name="EnemyPatrolPoint" type="PathFollow3D" parent="Enemies/PatrolPath"]
-transform = Transform3D(0.999729, 0, -0.0225163, 0, 1, 0, 0.0225163, 0, 0.999729, -0.43294, 0, -0.97773)
+transform = Transform3D(0.999728, 0, -0.0225163, 0, 1, 0, 0.0225163, 0, 0.999728, -0.43294, 0, -0.97773)
 script = ExtResource("6_i73lt")
 
 [node name="PatrolArea2" type="Path3D" parent="Enemies"]

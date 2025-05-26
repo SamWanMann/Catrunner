@@ -72087,21 +72087,21 @@ player_node = NodePath("..")
 signaling_node = NodePath("../InventorySystem")
 
 [node name="HandBone" type="BoneAttachment3D" parent="ItemSystem"]
-transform = Transform3D(-1.89897e-09, 1, 5.96046e-08, -1.15484e-07, 5.96046e-08, -1, -1, -1.89897e-09, 1.15484e-07, 0.7389, 1.4408, -0.0654001)
+transform = Transform3D(-0.400217, -0.216116, -0.893423, 0.400806, -0.87676, -0.0011792, -0.855675, -0.385143, 0.444461, 0.235049, 0.795282, -0.00735407)
 bone_name = "LeftHand"
-bone_idx = 13
+bone_idx = 110
 use_external_skeleton = true
-external_skeleton = NodePath("")
+external_skeleton = NodePath("../../Ritsuna2/Armature/GeneralSkeleton")
 
 [node name="HandPivot" type="Marker3D" parent="ItemSystem/HandBone"]
 transform = Transform3D(-0.0169522, -0.991058, -0.132351, 0.125911, -0.133433, 0.983027, -0.991897, 0, 0.127047, 1.93715e-07, 0.0987651, 0.0465127)
 
 [node name="StorageBone" type="BoneAttachment3D" parent="ItemSystem"]
-transform = Transform3D(1, 0, 0, 0, 1, 5.96046e-08, 0, -5.96046e-08, 1, 0, 1.0505, -0.0156001)
+transform = Transform3D(1, 4.96215e-09, 1.05652e-09, -4.85433e-09, 0.996378, -0.0850402, -1.47467e-09, 0.0850402, 0.996378, 1.2123e-09, 0.85386, -0.0624727)
 bone_name = "Spine"
 bone_idx = 2
 use_external_skeleton = true
-external_skeleton = NodePath("")
+external_skeleton = NodePath("../../Ritsuna2/Armature/GeneralSkeleton")
 
 [node name="HipPivot" type="Marker3D" parent="ItemSystem/StorageBone"]
 transform = Transform3D(0.983744, -0.179575, 0, 0.179575, 0.983745, 0, -6.51926e-09, 7.45058e-09, 1, 0.135887, 0.0248051, -0.0830496)

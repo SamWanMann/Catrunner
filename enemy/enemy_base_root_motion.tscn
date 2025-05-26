@@ -452,7 +452,7 @@ _data = {
 &"Armature|mixamo_com|Layer0_godot_rig": SubResource("Animation_01tel")
 }
 
-[sub_resource type="Animation" id="Animation_msjmf"]
+[sub_resource type="Animation" id="Animation_lycs1"]
 resource_name = "Armature|mixamo_com|Layer0"
 length = 0.0416667
 tracks/0/type = "position_3d"
@@ -1009,7 +1009,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_a2xfn"]
+[sub_resource type="Animation" id="Animation_vhpfi"]
 resource_name = "Die1"
 length = 1.5
 tracks/0/type = "position_3d"
@@ -1566,7 +1566,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_4qsd2"]
+[sub_resource type="Animation" id="Animation_n2x72"]
 resource_name = "GadgetChange_back"
 length = 0.916667
 tracks/0/type = "position_3d"
@@ -2123,7 +2123,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_pjwh3"]
+[sub_resource type="Animation" id="Animation_30jpw"]
 resource_name = "GuardBlocked"
 length = 0.5
 tracks/0/type = "position_3d"
@@ -2680,7 +2680,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_c20cw"]
+[sub_resource type="Animation" id="Animation_0fexl"]
 resource_name = "GuardParry"
 length = 0.5
 tracks/0/type = "position_3d"
@@ -3237,7 +3237,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_1yx62"]
+[sub_resource type="Animation" id="Animation_x080l"]
 resource_name = "Guarding-loop"
 length = 1.33333
 loop_mode = 1
@@ -3795,7 +3795,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_x35rm"]
+[sub_resource type="Animation" id="Animation_8gcdb"]
 resource_name = "Heavy1"
 length = 1.875
 tracks/0/type = "position_3d"
@@ -4352,7 +4352,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_1i2pr"]
+[sub_resource type="Animation" id="Animation_g46yq"]
 resource_name = "Heavy2"
 length = 1.41667
 tracks/0/type = "position_3d"
@@ -4909,7 +4909,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_sj7ig"]
+[sub_resource type="Animation" id="Animation_iv08f"]
 resource_name = "HeavyCharge"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -5466,7 +5466,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_rsg6q"]
+[sub_resource type="Animation" id="Animation_6huln"]
 resource_name = "HeavyFalling-loop"
 length = 0.958333
 loop_mode = 1
@@ -6024,7 +6024,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_5q1bu"]
+[sub_resource type="Animation" id="Animation_xywv5"]
 resource_name = "HeavyIdle-loop"
 length = 1.41667
 loop_mode = 1
@@ -6582,7 +6582,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_c8a4x"]
+[sub_resource type="Animation" id="Animation_6ndwy"]
 resource_name = "HeavyJumpAttack"
 length = 0.416667
 tracks/0/type = "position_3d"
@@ -7139,7 +7139,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_57pl7"]
+[sub_resource type="Animation" id="Animation_lmw38"]
 resource_name = "HeavyRelease"
 length = 1.54167
 tracks/0/type = "position_3d"
@@ -7696,7 +7696,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_wp8os"]
+[sub_resource type="Animation" id="Animation_i6rqf"]
 resource_name = "HeavyRunning-loop"
 length = 0.625
 loop_mode = 1
@@ -8254,7 +8254,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ms842"]
+[sub_resource type="Animation" id="Animation_kimb3"]
 resource_name = "HeavySpin"
 length = 2.20833
 tracks/0/type = "position_3d"
@@ -8811,7 +8811,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_q0qwq"]
+[sub_resource type="Animation" id="Animation_rrvd3"]
 resource_name = "HeavyStrafe45L-loop"
 length = 0.541667
 loop_mode = 1
@@ -9369,7 +9369,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_wlvoa"]
+[sub_resource type="Animation" id="Animation_wq7hr"]
 resource_name = "HeavyStrafe45R-loop"
 length = 0.541667
 loop_mode = 1
@@ -9927,7 +9927,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_11xl8"]
+[sub_resource type="Animation" id="Animation_p533w"]
 resource_name = "HeavyStrafeL-loop"
 length = 0.541667
 loop_mode = 1
@@ -10485,7 +10485,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_sx13w"]
+[sub_resource type="Animation" id="Animation_37ajf"]
 resource_name = "HeavyStrafeLWalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -11043,7 +11043,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_wv0cl"]
+[sub_resource type="Animation" id="Animation_bxixq"]
 resource_name = "HeavyStrafeR-loop"
 length = 0.541667
 loop_mode = 1
@@ -11601,7 +11601,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_adnib"]
+[sub_resource type="Animation" id="Animation_qtp5w"]
 resource_name = "HeavyStrafeRWalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -12159,7 +12159,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ptthh"]
+[sub_resource type="Animation" id="Animation_7tjms"]
 resource_name = "HeavyUppercut"
 length = 2.16667
 tracks/0/type = "position_3d"
@@ -12716,7 +12716,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_nx5va"]
+[sub_resource type="Animation" id="Animation_1orft"]
 resource_name = "HeavyWalking-loop"
 length = 1.375
 loop_mode = 1
@@ -13274,7 +13274,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_er2di"]
+[sub_resource type="Animation" id="Animation_ll842"]
 resource_name = "Hurt1"
 length = 0.5
 tracks/0/type = "position_3d"
@@ -13831,7 +13831,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_kp6im"]
+[sub_resource type="Animation" id="Animation_883d6"]
 resource_name = "Hurt2"
 length = 0.416667
 tracks/0/type = "position_3d"
@@ -14388,7 +14388,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_jg0xh"]
+[sub_resource type="Animation" id="Animation_ok7c0"]
 resource_name = "HurtIdle-loop"
 length = 1.41667
 loop_mode = 1
@@ -14946,7 +14946,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_8x7df"]
+[sub_resource type="Animation" id="Animation_up34o"]
 resource_name = "Jump"
 length = 0.166667
 tracks/0/type = "position_3d"
@@ -15503,7 +15503,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_aa6ii"]
+[sub_resource type="Animation" id="Animation_oc8ij"]
 resource_name = "LadderBottom_mount"
 length = 0.583333
 tracks/0/type = "position_3d"
@@ -16060,7 +16060,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_k0kk2"]
+[sub_resource type="Animation" id="Animation_r5dv3"]
 resource_name = "LadderClimbing-loop"
 length = 0.875
 loop_mode = 1
@@ -16618,7 +16618,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_5f1ea"]
+[sub_resource type="Animation" id="Animation_h2q41"]
 resource_name = "LadderHurt1"
 length = 0.666667
 tracks/0/type = "position_3d"
@@ -17175,7 +17175,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_lsejd"]
+[sub_resource type="Animation" id="Animation_j2sna"]
 resource_name = "LadderTop_dismount"
 length = 0.916667
 tracks/0/type = "position_3d"
@@ -17732,7 +17732,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_gej3l"]
+[sub_resource type="Animation" id="Animation_nciae"]
 resource_name = "LadderTop_dismount-jump"
 length = 0.708333
 tracks/0/type = "position_3d"
@@ -18289,7 +18289,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_70dvv"]
+[sub_resource type="Animation" id="Animation_rbwlb"]
 resource_name = "Ladder_idle-loop"
 length = 1.375
 loop_mode = 1
@@ -18847,7 +18847,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_pwq7p"]
+[sub_resource type="Animation" id="Animation_ts616"]
 resource_name = "LandHard"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -19404,7 +19404,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_8axf1"]
+[sub_resource type="Animation" id="Animation_puhk6"]
 resource_name = "LightFalling-loop"
 length = 0.958333
 loop_mode = 1
@@ -19962,7 +19962,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_mypxc"]
+[sub_resource type="Animation" id="Animation_e26k8"]
 resource_name = "LightIdle-loop"
 length = 1.41667
 loop_mode = 1
@@ -20520,7 +20520,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_6j3ew"]
+[sub_resource type="Animation" id="Animation_66ukb"]
 resource_name = "LightJumpAttack"
 length = 0.416667
 tracks/0/type = "position_3d"
@@ -21077,7 +21077,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_7h8iu"]
+[sub_resource type="Animation" id="Animation_7oxug"]
 resource_name = "LightRunning-loop"
 length = 0.583333
 loop_mode = 1
@@ -21635,7 +21635,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_o4fv0"]
+[sub_resource type="Animation" id="Animation_h74ec"]
 resource_name = "LightStrafe45L-loop"
 length = 0.541667
 loop_mode = 1
@@ -22193,7 +22193,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_3xslk"]
+[sub_resource type="Animation" id="Animation_t36bw"]
 resource_name = "LightStrafe45R-loop"
 length = 0.541667
 loop_mode = 1
@@ -22751,7 +22751,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_b01m0"]
+[sub_resource type="Animation" id="Animation_laq1c"]
 resource_name = "LightStrafeL-loop"
 length = 0.541667
 loop_mode = 1
@@ -23309,7 +23309,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_on80a"]
+[sub_resource type="Animation" id="Animation_7rv4n"]
 resource_name = "LightStrafeLwalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -23867,7 +23867,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_w22ap"]
+[sub_resource type="Animation" id="Animation_sjs1n"]
 resource_name = "LightStrafeR-loop"
 length = 0.541667
 loop_mode = 1
@@ -24425,7 +24425,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_fvtvy"]
+[sub_resource type="Animation" id="Animation_8x3xe"]
 resource_name = "LightStrafeRwalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -24983,7 +24983,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_lbmrw"]
+[sub_resource type="Animation" id="Animation_hmpmi"]
 resource_name = "LightWalking-loop"
 length = 1.33333
 loop_mode = 1
@@ -25541,7 +25541,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_eo7jt"]
+[sub_resource type="Animation" id="Animation_vjuwc"]
 resource_name = "OpenChest"
 length = 1.45833
 tracks/0/type = "position_3d"
@@ -26098,7 +26098,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_3r3xt"]
+[sub_resource type="Animation" id="Animation_ap3id"]
 resource_name = "OpenDoor"
 length = 1.66667
 tracks/0/type = "position_3d"
@@ -26655,7 +26655,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_4xe3e"]
+[sub_resource type="Animation" id="Animation_ea45g"]
 resource_name = "OpenGate"
 length = 2.25
 tracks/0/type = "position_3d"
@@ -27212,7 +27212,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_em1dc"]
+[sub_resource type="Animation" id="Animation_ckypa"]
 resource_name = "OpenGeneric"
 length = 1.66667
 tracks/0/type = "position_3d"
@@ -27769,7 +27769,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_p8acv"]
+[sub_resource type="Animation" id="Animation_c51c8"]
 resource_name = "OpenLeverFloor30Deg"
 length = 1.625
 tracks/0/type = "position_3d"
@@ -28326,7 +28326,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_4046b"]
+[sub_resource type="Animation" id="Animation_hp4ot"]
 resource_name = "Parried"
 length = 1.625
 tracks/0/type = "position_3d"
@@ -28883,7 +28883,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_neye0"]
+[sub_resource type="Animation" id="Animation_w4iww"]
 resource_name = "retreat"
 length = 0.958333
 tracks/0/type = "position_3d"
@@ -29405,7 +29405,7 @@ tracks/73/interp = 1
 tracks/73/loop_wrap = true
 tracks/73/keys = PackedFloat32Array(0, 1, -4.47035e-08, -1.49012e-08, 5.96046e-08, 1)
 
-[sub_resource type="Animation" id="Animation_tcl7k"]
+[sub_resource type="Animation" id="Animation_xcabb"]
 resource_name = "Roll"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -29962,7 +29962,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_0wtgd"]
+[sub_resource type="Animation" id="Animation_noxn1"]
 resource_name = "Roll45L"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -30519,7 +30519,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_tgndg"]
+[sub_resource type="Animation" id="Animation_yfnhq"]
 resource_name = "Roll45R"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -31076,7 +31076,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_yse85"]
+[sub_resource type="Animation" id="Animation_xjhhl"]
 resource_name = "RollBarrelL"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -31633,7 +31633,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_84er7"]
+[sub_resource type="Animation" id="Animation_cmiop"]
 resource_name = "RollBarrelR"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -32190,7 +32190,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_7h4f6"]
+[sub_resource type="Animation" id="Animation_r2rco"]
 resource_name = "ShieldBash"
 tracks/0/type = "position_3d"
 tracks/0/imported = true
@@ -32746,7 +32746,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_8hxdg"]
+[sub_resource type="Animation" id="Animation_dxc2u"]
 resource_name = "Slash1"
 length = 1.16667
 tracks/0/type = "position_3d"
@@ -33303,7 +33303,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_wssuo"]
+[sub_resource type="Animation" id="Animation_x05s1"]
 resource_name = "Slash2"
 length = 1.16667
 tracks/0/type = "position_3d"
@@ -33860,7 +33860,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ccuja"]
+[sub_resource type="Animation" id="Animation_qxv1o"]
 resource_name = "Slash3"
 length = 1.79167
 tracks/0/type = "position_3d"
@@ -34417,7 +34417,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_kwsx3"]
+[sub_resource type="Animation" id="Animation_pergk"]
 resource_name = "SlashCharge"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -34974,7 +34974,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_kc08t"]
+[sub_resource type="Animation" id="Animation_qegxg"]
 resource_name = "SlashL1"
 length = 1.16667
 tracks/0/type = "position_3d"
@@ -35531,7 +35531,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_erqex"]
+[sub_resource type="Animation" id="Animation_4dwyv"]
 resource_name = "SlashRelease"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -36088,7 +36088,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_1247y"]
+[sub_resource type="Animation" id="Animation_ovjvv"]
 resource_name = "SlashUppercut"
 length = 1.375
 tracks/0/type = "position_3d"
@@ -36645,7 +36645,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ctgcm"]
+[sub_resource type="Animation" id="Animation_wceen"]
 resource_name = "Spawn"
 length = 2.0
 tracks/0/type = "position_3d"
@@ -37202,7 +37202,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_86rs2"]
+[sub_resource type="Animation" id="Animation_ey3fl"]
 resource_name = "Sprint-loop"
 length = 0.583333
 loop_mode = 1
@@ -37760,7 +37760,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_wlmsk"]
+[sub_resource type="Animation" id="Animation_gs6y8"]
 resource_name = "Stab1"
 length = 1.04167
 tracks/0/type = "position_3d"
@@ -38317,7 +38317,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_guh6j"]
+[sub_resource type="Animation" id="Animation_bc2mq"]
 resource_name = "TPose"
 length = 0.001
 tracks/0/type = "position_3d"
@@ -38874,7 +38874,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_1vx3b"]
+[sub_resource type="Animation" id="Animation_c77ek"]
 resource_name = "ThrowL"
 length = 1.45833
 tracks/0/type = "position_3d"
@@ -39431,7 +39431,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_dmmmu"]
+[sub_resource type="Animation" id="Animation_nrmor"]
 resource_name = "ThrowLTopOnly"
 length = 1.45833
 tracks/0/type = "position_3d"
@@ -39988,7 +39988,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_21law"]
+[sub_resource type="Animation" id="Animation_orpyk"]
 resource_name = "ThrowR"
 length = 1.41667
 tracks/0/type = "position_3d"
@@ -40545,7 +40545,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_6ho41"]
+[sub_resource type="Animation" id="Animation_ib7tt"]
 resource_name = "UsePotion"
 length = 1.5
 tracks/0/type = "position_3d"
@@ -41102,7 +41102,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_o7as5"]
+[sub_resource type="Animation" id="Animation_4gyi4"]
 resource_name = "WeaponChange_back"
 length = 1.04167
 tracks/0/type = "position_3d"
@@ -41659,7 +41659,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_2g12x"]
+[sub_resource type="Animation" id="Animation_opc6t"]
 resource_name = "WeaponChange_hip"
 length = 0.916667
 tracks/0/type = "position_3d"
@@ -42216,7 +42216,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_lgiiq"]
+[sub_resource type="Animation" id="Animation_onpb7"]
 resource_name = "root-HeaveyRelease"
 length = 1.54167
 tracks/0/type = "position_3d"
@@ -42773,7 +42773,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_774i3"]
+[sub_resource type="Animation" id="Animation_uyv32"]
 resource_name = "root-Heavy1"
 length = 1.875
 tracks/0/type = "position_3d"
@@ -43330,7 +43330,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_qo5jj"]
+[sub_resource type="Animation" id="Animation_jpg4s"]
 resource_name = "root-Heavy2"
 length = 1.41667
 tracks/0/type = "position_3d"
@@ -43887,7 +43887,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_l2yit"]
+[sub_resource type="Animation" id="Animation_3bh55"]
 resource_name = "root-HeavyRunning-loop"
 length = 0.625
 loop_mode = 1
@@ -44445,7 +44445,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_l322v"]
+[sub_resource type="Animation" id="Animation_5cray"]
 resource_name = "root-HeavySpin"
 length = 2.20833
 tracks/0/type = "position_3d"
@@ -45002,7 +45002,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_8l6q4"]
+[sub_resource type="Animation" id="Animation_vjp7x"]
 resource_name = "root-HeavyStrafe45L-loop"
 length = 0.583333
 loop_mode = 1
@@ -45560,7 +45560,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_d3un7"]
+[sub_resource type="Animation" id="Animation_ilalx"]
 resource_name = "root-HeavyStrafe45R-loop"
 length = 0.583333
 loop_mode = 1
@@ -46118,7 +46118,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_h62xt"]
+[sub_resource type="Animation" id="Animation_fd4cw"]
 resource_name = "root-HeavyStrafeL-loop"
 length = 0.583333
 loop_mode = 1
@@ -46676,7 +46676,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ckw2g"]
+[sub_resource type="Animation" id="Animation_wq60h"]
 resource_name = "root-HeavyStrafeLWalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -47234,7 +47234,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_qh307"]
+[sub_resource type="Animation" id="Animation_xgk2o"]
 resource_name = "root-HeavyStrafeR-loop"
 length = 0.583333
 loop_mode = 1
@@ -47792,7 +47792,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_u3rua"]
+[sub_resource type="Animation" id="Animation_0kskf"]
 resource_name = "root-HeavyStrafeRWalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -48350,7 +48350,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_n41gi"]
+[sub_resource type="Animation" id="Animation_f5h6e"]
 resource_name = "root-HeavyUppercut"
 length = 2.16667
 tracks/0/type = "position_3d"
@@ -48907,7 +48907,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_e8s8f"]
+[sub_resource type="Animation" id="Animation_x420e"]
 resource_name = "root-HeavyWalking-loop"
 length = 1.375
 loop_mode = 1
@@ -49465,7 +49465,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_v5p3y"]
+[sub_resource type="Animation" id="Animation_rvq2g"]
 resource_name = "root-hurt1"
 length = 0.5
 tracks/0/type = "position_3d"
@@ -50022,7 +50022,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_poyiv"]
+[sub_resource type="Animation" id="Animation_j510d"]
 resource_name = "root-hurt2"
 length = 0.416667
 tracks/0/type = "position_3d"
@@ -50579,7 +50579,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_rit4d"]
+[sub_resource type="Animation" id="Animation_7b8fc"]
 resource_name = "root-Jump"
 length = 0.208333
 tracks/0/type = "position_3d"
@@ -51136,7 +51136,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_grcho"]
+[sub_resource type="Animation" id="Animation_5bmn0"]
 resource_name = "root-LadderBottom_mount"
 length = 0.583333
 tracks/0/type = "position_3d"
@@ -51693,7 +51693,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_kyv6r"]
+[sub_resource type="Animation" id="Animation_mcrhb"]
 resource_name = "root-LadderClimbing-loop"
 length = 0.916667
 loop_mode = 1
@@ -52251,7 +52251,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_hebli"]
+[sub_resource type="Animation" id="Animation_dm5ed"]
 resource_name = "root-LadderTop_dismount"
 length = 0.916667
 tracks/0/type = "position_3d"
@@ -52808,7 +52808,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ke1cj"]
+[sub_resource type="Animation" id="Animation_6fqvt"]
 resource_name = "root-LadderTop_dismount-jump"
 length = 0.708333
 tracks/0/type = "position_3d"
@@ -53365,7 +53365,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_p3qcy"]
+[sub_resource type="Animation" id="Animation_bd8dv"]
 resource_name = "root-LightRunning-loop"
 length = 0.583333
 loop_mode = 1
@@ -53923,7 +53923,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_xas5x"]
+[sub_resource type="Animation" id="Animation_1r06l"]
 resource_name = "root-LightStrafe45L-loop"
 length = 0.583333
 loop_mode = 1
@@ -54481,7 +54481,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_f6utp"]
+[sub_resource type="Animation" id="Animation_rtywb"]
 resource_name = "root-LightStrafe45R-loop"
 length = 0.583333
 loop_mode = 1
@@ -55039,7 +55039,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_rjjhp"]
+[sub_resource type="Animation" id="Animation_q7pft"]
 resource_name = "root-LightStrafeL-loop"
 length = 0.541667
 loop_mode = 1
@@ -55597,7 +55597,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_1wpl2"]
+[sub_resource type="Animation" id="Animation_xv7fd"]
 resource_name = "root-LightStrafeLwalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -56155,7 +56155,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_gtux6"]
+[sub_resource type="Animation" id="Animation_3c8q5"]
 resource_name = "root-LightStrafeR-loop"
 length = 0.541667
 loop_mode = 1
@@ -56713,7 +56713,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_5l0dm"]
+[sub_resource type="Animation" id="Animation_g0b1s"]
 resource_name = "root-LightStrafeRwalk-loop"
 length = 0.666667
 loop_mode = 1
@@ -57271,7 +57271,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_a2iol"]
+[sub_resource type="Animation" id="Animation_tcbka"]
 resource_name = "root-LightWalking-loop"
 length = 1.33333
 loop_mode = 1
@@ -57829,7 +57829,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_3wdjt"]
+[sub_resource type="Animation" id="Animation_yuhq0"]
 resource_name = "root-Parried"
 length = 1.625
 tracks/0/type = "position_3d"
@@ -58386,7 +58386,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_mlc4n"]
+[sub_resource type="Animation" id="Animation_hy7w8"]
 resource_name = "root-retreat"
 length = 0.958333
 tracks/0/type = "position_3d"
@@ -58908,7 +58908,7 @@ tracks/73/interp = 1
 tracks/73/loop_wrap = true
 tracks/73/keys = PackedFloat32Array(0, 1, -4.47035e-08, -1.49012e-08, 5.96046e-08, 1)
 
-[sub_resource type="Animation" id="Animation_q11pt"]
+[sub_resource type="Animation" id="Animation_dya4r"]
 resource_name = "root-roll"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -59465,7 +59465,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_a8xkh"]
+[sub_resource type="Animation" id="Animation_w4hvh"]
 resource_name = "root-Roll45L"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -60022,7 +60022,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_s8gfv"]
+[sub_resource type="Animation" id="Animation_d0jqi"]
 resource_name = "root-roll45R"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -60579,7 +60579,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_rcl88"]
+[sub_resource type="Animation" id="Animation_687db"]
 resource_name = "roolt_RollBarrelL"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -61136,7 +61136,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_p6yka"]
+[sub_resource type="Animation" id="Animation_rwfhj"]
 resource_name = "root-RollBarlleR"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -61693,7 +61693,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_2ltsm"]
+[sub_resource type="Animation" id="Animation_42xnd"]
 resource_name = "root-ShieldBash"
 tracks/0/type = "position_3d"
 tracks/0/imported = true
@@ -62249,7 +62249,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ugqgc"]
+[sub_resource type="Animation" id="Animation_k76yp"]
 resource_name = "root-Slash1"
 length = 1.16667
 tracks/0/type = "position_3d"
@@ -62806,7 +62806,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_470hs"]
+[sub_resource type="Animation" id="Animation_ww53f"]
 resource_name = "root-Slash2"
 length = 1.16667
 tracks/0/type = "position_3d"
@@ -63363,7 +63363,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_ai5k6"]
+[sub_resource type="Animation" id="Animation_60rnr"]
 resource_name = "root-Slash3"
 length = 1.79167
 tracks/0/type = "position_3d"
@@ -63920,7 +63920,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_vi7po"]
+[sub_resource type="Animation" id="Animation_i42ar"]
 resource_name = "root-SlashL1"
 length = 1.16667
 tracks/0/type = "position_3d"
@@ -64477,7 +64477,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_1q0cs"]
+[sub_resource type="Animation" id="Animation_wbg5f"]
 resource_name = "root-SlashRelease"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -65034,7 +65034,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_6oghb"]
+[sub_resource type="Animation" id="Animation_w72b5"]
 resource_name = "root-SlashUppercut"
 length = 1.375
 tracks/0/type = "position_3d"
@@ -65591,7 +65591,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_mtgh6"]
+[sub_resource type="Animation" id="Animation_qr8hj"]
 resource_name = "root-Sprint-loop"
 length = 0.583333
 loop_mode = 1
@@ -66149,7 +66149,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_slkqe"]
+[sub_resource type="Animation" id="Animation_yyl0c"]
 resource_name = "root-Stab1"
 length = 1.04167
 tracks/0/type = "position_3d"
@@ -66706,7 +66706,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_838xr"]
+[sub_resource type="Animation" id="Animation_pohbm"]
 resource_name = "root-ThrowL"
 length = 1.45833
 tracks/0/type = "position_3d"
@@ -67263,7 +67263,7 @@ tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
-[sub_resource type="Animation" id="Animation_c4l1w"]
+[sub_resource type="Animation" id="Animation_vmqfh"]
 resource_name = "root-ThrowR"
 length = 1.41667
 tracks/0/type = "position_3d"
@@ -67822,127 +67822,127 @@ tracks/78/keys = PackedFloat32Array(0, 1, 0.5, -0.5, -0.5, -0.5)
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_rv7b1"]
 _data = {
-&"Armature|mixamo_com|Layer0": SubResource("Animation_msjmf"),
-&"Die1": SubResource("Animation_a2xfn"),
-&"GadgetChange_back": SubResource("Animation_4qsd2"),
-&"GuardBlocked": SubResource("Animation_pjwh3"),
-&"GuardParry": SubResource("Animation_c20cw"),
-&"Guarding": SubResource("Animation_1yx62"),
-&"Heavy1": SubResource("Animation_x35rm"),
-&"Heavy2": SubResource("Animation_1i2pr"),
-&"HeavyCharge": SubResource("Animation_sj7ig"),
-&"HeavyFalling": SubResource("Animation_rsg6q"),
-&"HeavyIdle": SubResource("Animation_5q1bu"),
-&"HeavyJumpAttack": SubResource("Animation_c8a4x"),
-&"HeavyRelease": SubResource("Animation_57pl7"),
-&"HeavyRunning": SubResource("Animation_wp8os"),
-&"HeavySpin": SubResource("Animation_ms842"),
-&"HeavyStrafe45L": SubResource("Animation_q0qwq"),
-&"HeavyStrafe45R": SubResource("Animation_wlvoa"),
-&"HeavyStrafeL": SubResource("Animation_11xl8"),
-&"HeavyStrafeLWalk": SubResource("Animation_sx13w"),
-&"HeavyStrafeR": SubResource("Animation_wv0cl"),
-&"HeavyStrafeRWalk": SubResource("Animation_adnib"),
-&"HeavyUppercut": SubResource("Animation_ptthh"),
-&"HeavyWalking": SubResource("Animation_nx5va"),
-&"Hurt1": SubResource("Animation_er2di"),
-&"Hurt2": SubResource("Animation_kp6im"),
-&"HurtIdle": SubResource("Animation_jg0xh"),
-&"Jump": SubResource("Animation_8x7df"),
-&"LadderBottom_mount": SubResource("Animation_aa6ii"),
-&"LadderClimbing": SubResource("Animation_k0kk2"),
-&"LadderHurt1": SubResource("Animation_5f1ea"),
-&"LadderTop_dismount": SubResource("Animation_lsejd"),
-&"LadderTop_dismount-jump": SubResource("Animation_gej3l"),
-&"Ladder_idle": SubResource("Animation_70dvv"),
-&"LandHard": SubResource("Animation_pwq7p"),
-&"LightFalling": SubResource("Animation_8axf1"),
-&"LightIdle": SubResource("Animation_mypxc"),
-&"LightJumpAttack": SubResource("Animation_6j3ew"),
-&"LightRunning": SubResource("Animation_7h8iu"),
-&"LightStrafe45L": SubResource("Animation_o4fv0"),
-&"LightStrafe45R": SubResource("Animation_3xslk"),
-&"LightStrafeL": SubResource("Animation_b01m0"),
-&"LightStrafeLwalk": SubResource("Animation_on80a"),
-&"LightStrafeR": SubResource("Animation_w22ap"),
-&"LightStrafeRwalk": SubResource("Animation_fvtvy"),
-&"LightWalking": SubResource("Animation_lbmrw"),
-&"OpenChest": SubResource("Animation_eo7jt"),
-&"OpenDoor": SubResource("Animation_3r3xt"),
-&"OpenGate": SubResource("Animation_4xe3e"),
-&"OpenGeneric": SubResource("Animation_em1dc"),
-&"OpenLeverFloor30Deg": SubResource("Animation_p8acv"),
-&"Parried": SubResource("Animation_4046b"),
-&"Retreat": SubResource("Animation_neye0"),
-&"Roll": SubResource("Animation_tcl7k"),
-&"Roll45L": SubResource("Animation_0wtgd"),
-&"Roll45R": SubResource("Animation_tgndg"),
-&"RollBarrelL": SubResource("Animation_yse85"),
-&"RollBarrelR": SubResource("Animation_84er7"),
-&"ShieldBash": SubResource("Animation_7h4f6"),
-&"Slash1": SubResource("Animation_8hxdg"),
-&"Slash2": SubResource("Animation_wssuo"),
-&"Slash3": SubResource("Animation_ccuja"),
-&"SlashCharge": SubResource("Animation_kwsx3"),
-&"SlashL1": SubResource("Animation_kc08t"),
-&"SlashRelease": SubResource("Animation_erqex"),
-&"SlashUppercut": SubResource("Animation_1247y"),
-&"Spawn": SubResource("Animation_ctgcm"),
-&"Sprint": SubResource("Animation_86rs2"),
-&"Stab1": SubResource("Animation_wlmsk"),
-&"TPose": SubResource("Animation_guh6j"),
-&"ThrowL": SubResource("Animation_1vx3b"),
-&"ThrowLTopOnly": SubResource("Animation_dmmmu"),
-&"ThrowR": SubResource("Animation_21law"),
-&"UsePotion": SubResource("Animation_6ho41"),
-&"WeaponChange_back": SubResource("Animation_o7as5"),
-&"WeaponChange_hip": SubResource("Animation_2g12x"),
-&"root-HeaveyRelease": SubResource("Animation_lgiiq"),
-&"root-Heavy1": SubResource("Animation_774i3"),
-&"root-Heavy2": SubResource("Animation_qo5jj"),
-&"root-HeavyRunning": SubResource("Animation_l2yit"),
-&"root-HeavySpin": SubResource("Animation_l322v"),
-&"root-HeavyStrafe45L": SubResource("Animation_8l6q4"),
-&"root-HeavyStrafe45R": SubResource("Animation_d3un7"),
-&"root-HeavyStrafeL": SubResource("Animation_h62xt"),
-&"root-HeavyStrafeLWalk": SubResource("Animation_ckw2g"),
-&"root-HeavyStrafeR": SubResource("Animation_qh307"),
-&"root-HeavyStrafeRWalk": SubResource("Animation_u3rua"),
-&"root-HeavyUppercut": SubResource("Animation_n41gi"),
-&"root-HeavyWalking": SubResource("Animation_e8s8f"),
-&"root-Hurt1": SubResource("Animation_v5p3y"),
-&"root-Hurt2": SubResource("Animation_poyiv"),
-&"root-Jump": SubResource("Animation_rit4d"),
-&"root-LadderBottom_mount": SubResource("Animation_grcho"),
-&"root-LadderClimbing": SubResource("Animation_kyv6r"),
-&"root-LadderTop_dismount": SubResource("Animation_hebli"),
-&"root-LadderTop_dismount-jump": SubResource("Animation_ke1cj"),
-&"root-LightRunning": SubResource("Animation_p3qcy"),
-&"root-LightStrafe45L": SubResource("Animation_xas5x"),
-&"root-LightStrafe45R": SubResource("Animation_f6utp"),
-&"root-LightStrafeL": SubResource("Animation_rjjhp"),
-&"root-LightStrafeLwalk": SubResource("Animation_1wpl2"),
-&"root-LightStrafeR": SubResource("Animation_gtux6"),
-&"root-LightStrafeRwalk": SubResource("Animation_5l0dm"),
-&"root-LightWalking": SubResource("Animation_a2iol"),
-&"root-Parried": SubResource("Animation_3wdjt"),
-&"root-Retreat": SubResource("Animation_mlc4n"),
-&"root-Roll": SubResource("Animation_q11pt"),
-&"root-Roll45L": SubResource("Animation_a8xkh"),
-&"root-Roll45R": SubResource("Animation_s8gfv"),
-&"root-RollBarrelL": SubResource("Animation_rcl88"),
-&"root-RollBarrelR": SubResource("Animation_p6yka"),
-&"root-ShieldBash": SubResource("Animation_2ltsm"),
-&"root-Slash1": SubResource("Animation_ugqgc"),
-&"root-Slash2": SubResource("Animation_470hs"),
-&"root-Slash3": SubResource("Animation_ai5k6"),
-&"root-SlashL1": SubResource("Animation_vi7po"),
-&"root-SlashRelease": SubResource("Animation_1q0cs"),
-&"root-SlashUppercut": SubResource("Animation_6oghb"),
-&"root-Sprint": SubResource("Animation_mtgh6"),
-&"root-Stab1": SubResource("Animation_slkqe"),
-&"root-ThrowL": SubResource("Animation_838xr"),
-&"root-ThrowR": SubResource("Animation_c4l1w")
+&"Armature|mixamo_com|Layer0": SubResource("Animation_lycs1"),
+&"Die1": SubResource("Animation_vhpfi"),
+&"GadgetChange_back": SubResource("Animation_n2x72"),
+&"GuardBlocked": SubResource("Animation_30jpw"),
+&"GuardParry": SubResource("Animation_0fexl"),
+&"Guarding": SubResource("Animation_x080l"),
+&"Heavy1": SubResource("Animation_8gcdb"),
+&"Heavy2": SubResource("Animation_g46yq"),
+&"HeavyCharge": SubResource("Animation_iv08f"),
+&"HeavyFalling": SubResource("Animation_6huln"),
+&"HeavyIdle": SubResource("Animation_xywv5"),
+&"HeavyJumpAttack": SubResource("Animation_6ndwy"),
+&"HeavyRelease": SubResource("Animation_lmw38"),
+&"HeavyRunning": SubResource("Animation_i6rqf"),
+&"HeavySpin": SubResource("Animation_kimb3"),
+&"HeavyStrafe45L": SubResource("Animation_rrvd3"),
+&"HeavyStrafe45R": SubResource("Animation_wq7hr"),
+&"HeavyStrafeL": SubResource("Animation_p533w"),
+&"HeavyStrafeLWalk": SubResource("Animation_37ajf"),
+&"HeavyStrafeR": SubResource("Animation_bxixq"),
+&"HeavyStrafeRWalk": SubResource("Animation_qtp5w"),
+&"HeavyUppercut": SubResource("Animation_7tjms"),
+&"HeavyWalking": SubResource("Animation_1orft"),
+&"Hurt1": SubResource("Animation_ll842"),
+&"Hurt2": SubResource("Animation_883d6"),
+&"HurtIdle": SubResource("Animation_ok7c0"),
+&"Jump": SubResource("Animation_up34o"),
+&"LadderBottom_mount": SubResource("Animation_oc8ij"),
+&"LadderClimbing": SubResource("Animation_r5dv3"),
+&"LadderHurt1": SubResource("Animation_h2q41"),
+&"LadderTop_dismount": SubResource("Animation_j2sna"),
+&"LadderTop_dismount-jump": SubResource("Animation_nciae"),
+&"Ladder_idle": SubResource("Animation_rbwlb"),
+&"LandHard": SubResource("Animation_ts616"),
+&"LightFalling": SubResource("Animation_puhk6"),
+&"LightIdle": SubResource("Animation_e26k8"),
+&"LightJumpAttack": SubResource("Animation_66ukb"),
+&"LightRunning": SubResource("Animation_7oxug"),
+&"LightStrafe45L": SubResource("Animation_h74ec"),
+&"LightStrafe45R": SubResource("Animation_t36bw"),
+&"LightStrafeL": SubResource("Animation_laq1c"),
+&"LightStrafeLwalk": SubResource("Animation_7rv4n"),
+&"LightStrafeR": SubResource("Animation_sjs1n"),
+&"LightStrafeRwalk": SubResource("Animation_8x3xe"),
+&"LightWalking": SubResource("Animation_hmpmi"),
+&"OpenChest": SubResource("Animation_vjuwc"),
+&"OpenDoor": SubResource("Animation_ap3id"),
+&"OpenGate": SubResource("Animation_ea45g"),
+&"OpenGeneric": SubResource("Animation_ckypa"),
+&"OpenLeverFloor30Deg": SubResource("Animation_c51c8"),
+&"Parried": SubResource("Animation_hp4ot"),
+&"Retreat": SubResource("Animation_w4iww"),
+&"Roll": SubResource("Animation_xcabb"),
+&"Roll45L": SubResource("Animation_noxn1"),
+&"Roll45R": SubResource("Animation_yfnhq"),
+&"RollBarrelL": SubResource("Animation_xjhhl"),
+&"RollBarrelR": SubResource("Animation_cmiop"),
+&"ShieldBash": SubResource("Animation_r2rco"),
+&"Slash1": SubResource("Animation_dxc2u"),
+&"Slash2": SubResource("Animation_x05s1"),
+&"Slash3": SubResource("Animation_qxv1o"),
+&"SlashCharge": SubResource("Animation_pergk"),
+&"SlashL1": SubResource("Animation_qegxg"),
+&"SlashRelease": SubResource("Animation_4dwyv"),
+&"SlashUppercut": SubResource("Animation_ovjvv"),
+&"Spawn": SubResource("Animation_wceen"),
+&"Sprint": SubResource("Animation_ey3fl"),
+&"Stab1": SubResource("Animation_gs6y8"),
+&"TPose": SubResource("Animation_bc2mq"),
+&"ThrowL": SubResource("Animation_c77ek"),
+&"ThrowLTopOnly": SubResource("Animation_nrmor"),
+&"ThrowR": SubResource("Animation_orpyk"),
+&"UsePotion": SubResource("Animation_ib7tt"),
+&"WeaponChange_back": SubResource("Animation_4gyi4"),
+&"WeaponChange_hip": SubResource("Animation_opc6t"),
+&"root-HeaveyRelease": SubResource("Animation_onpb7"),
+&"root-Heavy1": SubResource("Animation_uyv32"),
+&"root-Heavy2": SubResource("Animation_jpg4s"),
+&"root-HeavyRunning": SubResource("Animation_3bh55"),
+&"root-HeavySpin": SubResource("Animation_5cray"),
+&"root-HeavyStrafe45L": SubResource("Animation_vjp7x"),
+&"root-HeavyStrafe45R": SubResource("Animation_ilalx"),
+&"root-HeavyStrafeL": SubResource("Animation_fd4cw"),
+&"root-HeavyStrafeLWalk": SubResource("Animation_wq60h"),
+&"root-HeavyStrafeR": SubResource("Animation_xgk2o"),
+&"root-HeavyStrafeRWalk": SubResource("Animation_0kskf"),
+&"root-HeavyUppercut": SubResource("Animation_f5h6e"),
+&"root-HeavyWalking": SubResource("Animation_x420e"),
+&"root-Hurt1": SubResource("Animation_rvq2g"),
+&"root-Hurt2": SubResource("Animation_j510d"),
+&"root-Jump": SubResource("Animation_7b8fc"),
+&"root-LadderBottom_mount": SubResource("Animation_5bmn0"),
+&"root-LadderClimbing": SubResource("Animation_mcrhb"),
+&"root-LadderTop_dismount": SubResource("Animation_dm5ed"),
+&"root-LadderTop_dismount-jump": SubResource("Animation_6fqvt"),
+&"root-LightRunning": SubResource("Animation_bd8dv"),
+&"root-LightStrafe45L": SubResource("Animation_1r06l"),
+&"root-LightStrafe45R": SubResource("Animation_rtywb"),
+&"root-LightStrafeL": SubResource("Animation_q7pft"),
+&"root-LightStrafeLwalk": SubResource("Animation_xv7fd"),
+&"root-LightStrafeR": SubResource("Animation_3c8q5"),
+&"root-LightStrafeRwalk": SubResource("Animation_g0b1s"),
+&"root-LightWalking": SubResource("Animation_tcbka"),
+&"root-Parried": SubResource("Animation_yuhq0"),
+&"root-Retreat": SubResource("Animation_hy7w8"),
+&"root-Roll": SubResource("Animation_dya4r"),
+&"root-Roll45L": SubResource("Animation_w4hvh"),
+&"root-Roll45R": SubResource("Animation_d0jqi"),
+&"root-RollBarrelL": SubResource("Animation_687db"),
+&"root-RollBarrelR": SubResource("Animation_rwfhj"),
+&"root-ShieldBash": SubResource("Animation_42xnd"),
+&"root-Slash1": SubResource("Animation_k76yp"),
+&"root-Slash2": SubResource("Animation_ww53f"),
+&"root-Slash3": SubResource("Animation_60rnr"),
+&"root-SlashL1": SubResource("Animation_i42ar"),
+&"root-SlashRelease": SubResource("Animation_wbg5f"),
+&"root-SlashUppercut": SubResource("Animation_w72b5"),
+&"root-Sprint": SubResource("Animation_qr8hj"),
+&"root-Stab1": SubResource("Animation_yyl0c"),
+&"root-ThrowL": SubResource("Animation_pohbm"),
+&"root-ThrowR": SubResource("Animation_vmqfh")
 }
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_b3003"]
@@ -68089,7 +68089,6 @@ fadein_time = 0.2
 fadeout_time = 0.2
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_01jh1"]
-graph_offset = Vector2(-95.5049, 111.846)
 nodes/ATTACK_tree/node = SubResource("AnimationNodeStateMachine_272i4")
 nodes/ATTACK_tree/position = Vector2(380, 340)
 nodes/Animation/node = SubResource("AnimationNodeAnimation_5qi6e")
@@ -68175,90 +68174,71 @@ gradient = SubResource("Gradient_4pk7u")
 width = 96
 height = 8
 
-[node name="EnemyBase" type="CharacterBody3D"]
+[node name="EnemyBase" type="CharacterBody3D" node_paths=PackedStringArray("target_sensor", "health_system")]
 script = ExtResource("1_uvjjl")
+target_sensor = NodePath("AreaEnemyTargetSensor")
+health_system = NodePath("HealthSystem")
 
 [node name="mannyquin" parent="." instance=ExtResource("2_vmlme")]
 
 [node name="GeneralSkeleton" parent="mannyquin/godot_rig" index="0"]
-bones/1/position = Vector3(3.73373e-10, 0.818489, -0.0689544)
-bones/1/rotation = Quaternion(0.0425587, 6.33362e-10, -2.45635e-09, 0.999094)
-bones/3/rotation = Quaternion(0.0351991, -1.42007e-10, -4.45605e-09, 0.99938)
-bones/4/rotation = Quaternion(0.035199, -3.39699e-11, -1.04847e-09, 0.99938)
-bones/5/rotation = Quaternion(-0.0463856, -1.6515e-09, 8.58566e-09, 0.998924)
-bones/6/rotation = Quaternion(-0.0239836, -1.10393e-10, 3.39336e-09, 0.999712)
-bones/7/rotation = Quaternion(2.8691e-15, 0.707107, 0.707107, 2.78323e-15)
-bones/8/rotation = Quaternion(0.707107, -7.85046e-17, -7.85046e-17, 0.707107)
-bones/9/rotation = Quaternion(0.707107, 7.60513e-17, 8.09579e-17, 0.707107)
-bones/11/rotation = Quaternion(0.0245896, 0.787938, -0.615173, 0.0105369)
-bones/11/scale = Vector3(1.01718, 0.966501, 1.01719)
-bones/12/rotation = Quaternion(0.152113, -0.785287, 0.215973, 0.559947)
-bones/12/scale = Vector3(1.0002, 0.985459, 1.01565)
-bones/13/rotation = Quaternion(-0.196843, 0.559286, -0.407176, 0.694737)
-bones/13/scale = Vector3(1.01624, 1.00074, 0.984564)
-bones/14/rotation = Quaternion(0.541547, 1.11759e-07, 0, 0.84067)
-bones/15/rotation = Quaternion(0.504098, 1.56462e-07, -3.45707e-06, 0.863647)
-bones/16/rotation = Quaternion(0.504098, 3.27826e-07, -3.30806e-06, 0.863647)
-bones/17/rotation = Quaternion(0.54009, -0.025536, -0.01645, 0.841059)
-bones/18/rotation = Quaternion(0.504612, 0.00396139, -0.0153331, 0.863201)
-bones/19/rotation = Quaternion(0.503553, -0.0234209, -3.21865e-06, 0.863647)
-bones/20/rotation = Quaternion(0.538614, -0.0361754, -0.0233038, 0.841453)
-bones/21/rotation = Quaternion(0.504935, 0.00257635, -0.0217441, 0.86288)
-bones/22/rotation = Quaternion(0.502949, -0.0340071, -3.60608e-06, 0.863647)
-bones/23/rotation = Quaternion(0.540719, -0.019262, -0.0124083, 0.840891)
-bones/24/rotation = Quaternion(0.504351, 0.00185927, -0.0115608, 0.863419)
-bones/25/rotation = Quaternion(0.503739, -0.0190088, -3.63588e-06, 0.863647)
-bones/26/rotation = Quaternion(-0.179119, 0.671713, 0.268141, 0.666947)
-bones/27/rotation = Quaternion(0.45055, 0.176902, 0.154868, 0.861235)
-bones/28/rotation = Quaternion(0.442747, 0.202356, 0.143761, 0.861603)
-bones/30/rotation = Quaternion(0.0440086, 0.831441, -0.553786, -0.00948545)
-bones/30/scale = Vector3(1.01621, 0.968334, 1.01623)
-bones/31/rotation = Quaternion(0.19047, 0.608445, -0.152113, 0.755233)
-bones/31/scale = Vector3(1.00017, 0.988221, 1.01262)
-bones/32/rotation = Quaternion(-0.265935, -0.401477, 0.320343, 0.815767)
-bones/32/scale = Vector3(1.0116, 1.00445, 0.985403)
-bones/33/rotation = Quaternion(0.541547, -2.23517e-07, -3.57628e-07, 0.84067)
-bones/34/rotation = Quaternion(0.504098, 1.11759e-07, 3.39746e-06, 0.863647)
-bones/35/rotation = Quaternion(0.504098, -3.72529e-08, 3.42727e-06, 0.863646)
-bones/36/rotation = Quaternion(0.54009, 0.0255359, 0.0164496, 0.841059)
-bones/37/rotation = Quaternion(0.504613, -0.00396114, 0.0153331, 0.863201)
-bones/38/rotation = Quaternion(0.503553, 0.023421, 3.42727e-06, 0.863647)
-bones/39/rotation = Quaternion(0.538614, 0.0361753, 0.0233037, 0.841453)
-bones/40/rotation = Quaternion(0.504936, -0.0025761, 0.0217443, 0.862879)
-bones/41/rotation = Quaternion(0.50295, 0.0340071, 3.57628e-06, 0.863646)
-bones/42/rotation = Quaternion(0.540719, 0.0192619, 0.0124084, 0.840891)
-bones/43/rotation = Quaternion(0.504351, -0.00185954, 0.0115607, 0.863419)
-bones/44/rotation = Quaternion(0.50374, 0.019009, 3.30806e-06, 0.863646)
-bones/45/rotation = Quaternion(-0.179119, -0.671713, -0.268141, 0.666947)
-bones/46/rotation = Quaternion(0.450551, -0.176902, -0.154869, 0.861235)
-bones/47/rotation = Quaternion(0.442747, -0.202356, -0.143761, 0.861603)
-bones/50/rotation = Quaternion(-0.00113349, 0.30797, 0.937492, -0.162056)
-bones/50/scale = Vector3(1.01191, 0.976602, 1.01191)
-bones/51/rotation = Quaternion(0.0220033, 0.97006, -0.218676, 0.103345)
-bones/51/scale = Vector3(0.999263, 0.99315, 1.00811)
-bones/52/rotation = Quaternion(-0.139624, 0.749036, -0.647507, 0.013615)
-bones/52/scale = Vector3(0.990892, 1.00164, 1.00814)
-bones/53/rotation = Quaternion(-7.84903e-05, 1, -0.000231802, -4.66258e-05)
-bones/53/scale = Vector3(0.999732, 1.00033, 0.999941)
-bones/54/rotation = Quaternion(0.000705825, 0.110384, 0.988752, 0.100917)
-bones/54/scale = Vector3(1.01475, 0.971146, 1.01474)
-bones/55/rotation = Quaternion(-0.00983829, 0.950737, -0.308192, -0.0319343)
-bones/55/scale = Vector3(0.999129, 0.984311, 1.01779)
-bones/56/rotation = Quaternion(0.0391818, 0.522794, -0.842842, -0.121524)
-bones/56/scale = Vector3(0.989032, 0.996552, 1.01539)
-bones/57/rotation = Quaternion(6.11311e-05, 1, -0.000293672, 3.63251e-05)
-bones/57/scale = Vector3(0.999889, 1.00013, 0.999976)
+bones/1/rotation = Quaternion(-2.98023e-08, 0, 0, 1)
+bones/4/rotation = Quaternion(1.86265e-09, 0, 0, 1)
+bones/5/rotation = Quaternion(1.86265e-09, 0, 0, 1)
+bones/7/rotation = Quaternion(0, 0.707107, 0.707107, 0)
+bones/8/rotation = Quaternion(0.707107, 0, 0, 0.707107)
+bones/9/rotation = Quaternion(0.707107, 0, 0, 0.707107)
+bones/11/rotation = Quaternion(2.98023e-08, 1, 2.98023e-08, 2.98023e-08)
+bones/12/rotation = Quaternion(-4.21468e-08, -0.707107, 0, 0.707107)
+bones/13/rotation = Quaternion(2.0402e-08, 0.707107, -2.17448e-08, 0.707107)
+bones/14/rotation = Quaternion(0, -8.9407e-08, 0, 1)
+bones/15/rotation = Quaternion(0, 0, 5.96046e-08, 1)
+bones/16/rotation = Quaternion(0, 0, 5.96046e-08, 1)
+bones/18/rotation = Quaternion(0, -4.47035e-08, 4.47035e-08, 1)
+bones/20/rotation = Quaternion(0, -1.19209e-07, 0, 1)
+bones/21/rotation = Quaternion(0, 0, 5.96046e-08, 1)
+bones/23/rotation = Quaternion(0, -8.9407e-08, 0, 1)
+bones/24/rotation = Quaternion(2.98023e-08, -2.98023e-08, 2.98023e-08, 1)
+bones/25/rotation = Quaternion(2.98023e-08, -2.98023e-08, 5.96046e-08, 1)
+bones/26/rotation = Quaternion(-0.214187, 0.673887, 0.214187, 0.673887)
+bones/27/rotation = Quaternion(-1.49012e-08, 4.44089e-16, -2.98023e-08, 1)
+bones/30/rotation = Quaternion(-2.98023e-08, 1, 2.98023e-08, -2.98023e-08)
+bones/31/rotation = Quaternion(-4.21468e-08, 0.707107, 0, 0.707107)
+bones/32/rotation = Quaternion(2.08677e-08, -0.707107, 2.12792e-08, 0.707107)
+bones/33/rotation = Quaternion(1.49012e-08, -2.98023e-08, 1.49012e-08, 1)
+bones/34/rotation = Quaternion(0, -1.49012e-08, -1.49012e-08, 1)
+bones/35/rotation = Quaternion(0, -1.49012e-08, -1.49012e-08, 1)
+bones/38/rotation = Quaternion(2.98023e-08, 0, 0, 1)
+bones/39/rotation = Quaternion(1.49012e-08, -2.98023e-08, 1.49012e-08, 1)
+bones/40/rotation = Quaternion(-2.98023e-08, 2.98023e-08, -2.98023e-08, 1)
+bones/41/rotation = Quaternion(2.98023e-08, 0, -2.98023e-08, 1)
+bones/42/rotation = Quaternion(1.49012e-08, -2.98023e-08, 1.49012e-08, 1)
+bones/43/rotation = Quaternion(1.49012e-08, 1.49012e-08, 0, 1)
+bones/44/rotation = Quaternion(0, 5.96046e-08, 0, 1)
+bones/45/rotation = Quaternion(-0.214187, -0.673887, -0.214187, 0.673887)
+bones/46/rotation = Quaternion(1.49012e-08, -4.44089e-16, 2.98023e-08, 1)
+bones/47/rotation = Quaternion(-4.47035e-08, -1.49012e-08, 5.96046e-08, 1)
+bones/48/rotation = Quaternion(-5.96046e-08, -3.55271e-15, 1.50996e-07, -1)
+bones/49/rotation = Quaternion(-5.96046e-08, -3.55271e-15, 1.50996e-07, -1)
+bones/50/rotation = Quaternion(0, -7.45058e-09, 1, 0)
+bones/51/rotation = Quaternion(-5.08418e-13, 1, -3.49246e-09, 1.5346e-11)
+bones/52/rotation = Quaternion(3.73004e-11, 0.707107, -0.707107, 3.85866e-12)
+bones/53/rotation = Quaternion(-5.14488e-12, 1, 2.98023e-08, 5.14488e-12)
+bones/54/rotation = Quaternion(0, -7.45058e-09, 1, 0)
+bones/55/rotation = Quaternion(-5.08418e-13, 1, -3.49246e-09, 1.5346e-11)
+bones/56/rotation = Quaternion(3.73004e-11, 0.707107, -0.707107, 3.85866e-12)
+bones/57/rotation = Quaternion(-5.14488e-12, 1, 2.98023e-08, 5.14488e-12)
 
 [node name="Hair" parent="mannyquin/godot_rig/GeneralSkeleton" index="2"]
 visible = false
 
 [node name="Physical Bone Hips" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="6"]
-transform = Transform3D(-1, -1.02675e-07, 1.03356e-07, -1.23273e-07, 0.21825, -0.975893, 7.76425e-08, -0.975893, -0.21825, -5.07793e-08, 0.823854, -0.0397539)
+transform = Transform3D(-1, -1.02296e-07, 1.08415e-07, -1.21186e-07, 0.134469, -0.990918, 8.6788e-08, -0.990918, -0.134469, -5.13186e-08, 0.92484, -0.021456)
 collision_layer = 32
 collision_mask = 33
 joint_type = 3
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.27585e-08, 0.0273255, 0.0116089)
-body_offset = Transform3D(-1, -1.02296e-07, 1.08415e-07, -1.21186e-07, 0.134469, -0.990918, 8.6788e-08, -0.990918, -0.134469, -5.12218e-08, 0.00782907, 0.0286384)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.28181e-08, 0.0272892, 0.0119179)
+body_offset = Transform3D(-1, -1.02296e-07, 1.08415e-07, -1.21186e-07, 0.134469, -0.990918, 8.6788e-08, -0.990918, -0.134469, -5.13186e-08, 0.00814015, 0.028644)
 mass = 10.0
 bone_name = "Hips"
 joint_constraints/angular_limit_enabled = false
@@ -68273,12 +68253,12 @@ transform = Transform3D(1, -7.10543e-14, -4.79616e-14, -7.10543e-15, 1, -1.19209
 shape = SubResource("BoxShape3D_6iiwu")
 
 [node name="Physical Bone UpperChest" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="7"]
-transform = Transform3D(1, 6.52424e-07, 2.99194e-06, 3.04331e-06, -0.320221, -0.947343, 3.40014e-07, 0.947343, -0.320221, 2.62166e-09, 1.30453, -0.0216067)
+transform = Transform3D(1, 6.55802e-07, 3.00924e-06, 3.05973e-06, -0.0999803, -0.994989, -3.51651e-07, 0.994989, -0.0999803, -2.45063e-09, 1.39727, -0.0664114)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.71269e-07, 0.0694028, 0.0758814)
-body_offset = Transform3D(1, 6.55029e-07, 3.00775e-06, 3.05811e-06, -0.099828, -0.995005, -3.51499e-07, 0.995005, -0.099828, -2.42431e-09, 0.0824307, -0.0614811)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.71506e-07, 0.0694481, 0.0759038)
+body_offset = Transform3D(1, 6.55802e-07, 3.00924e-06, 3.05973e-06, -0.0999804, -0.994989, -3.51651e-07, 0.994989, -0.0999804, -2.45063e-09, 0.082467, -0.0615112)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68291,12 +68271,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_y2qyi")
 
 [node name="Physical Bone Head" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="8"]
-transform = Transform3D(1, -1.74822e-08, 2.34343e-08, 2.12077e-08, 0.985477, -0.16981, -2.01253e-08, 0.16981, 0.985477, 3.85735e-08, 1.54701, 0.0662005)
+transform = Transform3D(1, -9.57492e-09, 2.68362e-08, 1.18316e-08, 0.996347, -0.0853941, -2.59205e-08, 0.0853941, 0.996347, 3.2854e-08, 1.656, -0.0155333)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44195e-08, -0.0850941, 0.0279864)
-body_offset = Transform3D(1, -9.57232e-09, 2.68224e-08, 1.18264e-08, 0.996352, -0.085341, -2.59077e-08, 0.085341, 0.996352, 3.28543e-08, 0.087172, -0.0206223)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.44217e-08, -0.0852158, 0.0280123)
+body_offset = Transform3D(1, -9.57492e-09, 2.68362e-08, 1.18316e-08, 0.996347, -0.0853941, -2.59205e-08, 0.0853941, 0.996347, 3.2854e-08, 0.0872966, -0.0206331)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68309,12 +68289,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("CapsuleShape3D_uq6e7")
 
 [node name="Physical Bone LeftUpperArm" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="9"]
-transform = Transform3D(0.0398117, 0.177994, -0.983226, 0.204828, -0.964563, -0.166322, -0.977988, -0.194771, -0.074859, 0.221309, 1.27276, -0.0130882)
+transform = Transform3D(-0.0243224, 0.997712, -0.0630798, 0.0202483, -0.0625939, -0.997834, -0.999499, -0.025547, -0.0186796, 0.272828, 1.4517, -0.0553163)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.011838, -0.077052, 0.0164417)
-body_offset = Transform3D(0.982648, 0.024017, 0.0183528, -0.0239425, 1.0321, -0.0686976, -0.0199018, 0.0648185, 0.980759, -0.0100837, 0.0809382, -0.0108953)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0118265, -0.0798031, 0.0161702)
+body_offset = Transform3D(0.999499, 0.025547, 0.0186797, -0.0243225, 0.997712, -0.0630799, -0.0202484, 0.062594, 0.997834, -0.0100839, 0.0809282, -0.0109005)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68328,12 +68308,12 @@ transform = Transform3D(0.999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("BoxShape3D_7r4fu")
 
 [node name="Physical Bone LeftLowerArm" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="10"]
-transform = Transform3D(-0.43124, 0.449288, -0.782415, -0.473124, -0.851007, -0.227906, -0.768236, 0.271897, 0.579557, 0.30833, 1.00231, -0.00616477)
+transform = Transform3D(0.015733, 0.993207, 0.115294, -0.335295, 0.113873, -0.935206, -0.941982, -0.0239441, 0.334809, 0.586927, 1.44667, -0.0552535)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.020253, -0.116147, -0.011206)
-body_offset = Transform3D(0.329068, -0.103727, 0.920363, 0.0154358, 1.03053, 0.110921, -0.924417, -0.0651347, 0.323016, -0.00839859, 0.120623, 0.0147767)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0140554, -0.12012, -0.0133894)
+body_offset = Transform3D(0.335295, -0.113873, 0.935206, 0.0157329, 0.993207, 0.115294, -0.941982, -0.023944, 0.334809, -0.00586927, 0.120627, 0.0148467)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68346,12 +68326,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_7r4fu")
 
 [node name="Physical Bone RightUpperArm" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="11"]
-transform = Transform3D(0.2553, -0.41693, 0.872348, -0.384961, -0.87148, -0.303854, 0.88692, -0.258246, -0.382991, -0.242798, 1.22764, -0.0583606)
+transform = Transform3D(-0.00549926, -0.999355, -0.0354771, -0.36453, 0.0350398, -0.930532, 0.931176, 0.00781521, -0.364487, -0.3339, 1.43991, -0.076256)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00923315, -0.137309, -0.00998221)
-body_offset = Transform3D(0.916368, 0.00846721, -0.358538, 0.00551887, 1.03197, 0.0384761, 0.358593, -0.0360572, 0.915655, -0.0108773, 0.142032, 0.000878334)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00900377, -0.141792, -0.00982148)
+body_offset = Transform3D(0.931176, 0.00781516, -0.364487, 0.00549929, 0.999355, 0.035477, 0.36453, -0.0350398, 0.930532, -0.0108558, 0.142, 0.000888705)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68364,12 +68344,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_7r4fu")
 
 [node name="Physical Bone RightLowerArm" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="12"]
-transform = Transform3D(0.0974392, 0.295682, -0.950304, 0.298654, 0.902155, 0.311323, 0.949374, -0.314148, -0.000401373, -0.335456, 0.98859, -0.0537467)
+transform = Transform3D(0.136664, 0.990232, 0.0276265, 0.223498, -0.0579906, 0.972978, 0.965076, -0.126797, -0.22924, -0.606289, 1.44392, -0.0690623)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010103, 0.135087, -0.00139257)
-body_offset = Transform3D(0.220793, -0.0482658, 0.957553, -0.135022, -1.02515, -0.0203512, 0.953396, -0.0812746, -0.22402, 0.00562286, 0.139821, 0.001035)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0174322, 0.138934, 0.00106792)
+body_offset = Transform3D(0.223498, -0.0579904, 0.972978, -0.136664, -0.990232, -0.0276263, 0.965076, -0.126797, -0.22924, 0.00312173, 0.139989, 0.00103784)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68382,12 +68362,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_7r4fu")
 
 [node name="Physical Bone LeftUpperLeg" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="13"]
-transform = Transform3D(-0.814287, -0.200946, -0.544571, 0.181795, 0.802683, -0.568023, 0.55126, -0.561534, -0.617083, 0.172023, 0.684133, 0.107948)
+transform = Transform3D(-0.753858, 0.102427, -0.649004, 0.115148, 0.993083, 0.0229783, 0.646868, -0.0574094, -0.760438, 0.113203, 0.721515, 0.025547)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0255127, 0.203116, 0.0393572)
-body_offset = Transform3D(0.745345, -0.0987878, 0.64133, -0.11387, -1.01732, -0.0243648, 0.63952, -0.0535842, -0.751495, -0.0241913, 0.210497, 0.0241446)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0268744, 0.208036, 0.0389092)
+body_offset = Transform3D(0.753858, -0.102427, 0.649004, -0.115148, -0.993083, -0.0229783, 0.646868, -0.0574093, -0.760438, -0.0242032, 0.210585, 0.024147)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68400,12 +68380,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_4cbid")
 
 [node name="Physical Bone LeftLowerLeg" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="14"]
-transform = Transform3D(0.94132, -0.225188, 0.25141, 0.204878, 0.973184, 0.104584, -0.268219, -0.0469384, 0.962214, 0.248336, 0.292726, 0.173702)
+transform = Transform3D(0.999819, -0.007267, 0.0175821, 0.00808009, 0.99888, -0.0466251, -0.0172236, 0.0467587, 0.998758, 0.0849855, 0.304752, -0.0317641)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00511657, 0.22377, 0.0200464)
-body_offset = Transform3D(0.988792, -0.00621665, 0.0172117, -0.00793983, -1.02153, 0.0776306, 0.016933, -0.0478022, -0.985589, -0.00401315, 0.227072, 0.0303676)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00532534, 0.228184, 0.0198109)
+body_offset = Transform3D(0.999819, -0.007267, 0.0175821, -0.00808009, -0.99888, 0.0466251, 0.0172236, -0.0467588, -0.998758, -0.00401448, 0.227048, 0.0303642)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68418,12 +68398,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_4cbid")
 
 [node name="Physical Bone RightUpperLeg" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="15"]
-transform = Transform3D(-0.927676, 0.288063, -0.237566, 0.343123, 0.908602, -0.238135, 0.147255, -0.302426, -0.941729, -0.185074, 0.592877, 0.00536033)
+transform = Transform3D(-0.97637, 0.10534, -0.188696, 0.133558, 0.980573, -0.143665, 0.169896, -0.165472, -0.97147, -0.134894, 0.67279, -0.0110976)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0111448, 0.24919, -0.0587334)
-body_offset = Transform3D(0.962905, -0.0971841, 0.185777, -0.131688, -1.00951, 0.154458, 0.167555, -0.168196, -0.956445, 0.04586, 0.259163, -0.0123951)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00805354, 0.257039, -0.0580547)
+body_offset = Transform3D(0.97637, -0.10534, 0.188696, -0.133558, -0.980573, 0.143665, 0.169896, -0.165472, -0.97147, 0.0458943, 0.25931, -0.0124976)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68436,12 +68416,12 @@ joint_constraints/impulse_clamp = 0.0
 shape = SubResource("BoxShape3D_4cbid")
 
 [node name="Physical Bone RightLowerLeg" type="PhysicalBone3D" parent="mannyquin/godot_rig/GeneralSkeleton" index="16"]
-transform = Transform3D(0.968173, 0.074917, -0.238806, -0.194996, 0.823937, -0.532076, 0.156899, 0.561708, 0.812322, -0.183006, 0.271381, -0.0491557)
+transform = Transform3D(0.996257, -0.0436892, -0.0745915, 0.0368282, 0.99517, -0.090999, 0.0782069, 0.0879113, 0.993054, -0.0763618, 0.326845, 0.0130709)
 collision_layer = 32
 collision_mask = 33
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00626367, 0.196556, -0.0324864)
-body_offset = Transform3D(0.982552, -0.0451335, -0.0734346, -0.0363122, -1.02062, 0.140452, -0.0771558, -0.0901746, -0.97623, 0.01264, 0.204944, -0.0144731)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00617448, 0.203245, -0.0320783)
+body_offset = Transform3D(0.996257, -0.0436892, -0.0745915, -0.0368282, -0.99517, 0.0909991, -0.0782069, -0.0879113, -0.993054, 0.0126382, 0.204955, -0.0144708)
 mass = 10.0
 linear_damp = 7.0
 angular_damp = 7.0
@@ -68517,16 +68497,17 @@ script = ExtResource("7_2eg3d")
 sound_trigger_signal = "hit_world"
 
 [node name="BoneAttachment3D" type="BoneAttachment3D" parent="EquipmentSystem"]
-transform = Transform3D(-0.506816, -0.0801453, 0.860163, -0.461898, -0.771529, -0.369545, 0.750468, -0.604125, 0.363537, -0.364605, 0.867063, -0.0224877)
-bone_name = "RightHand"
-bone_idx = 32
+transform = Transform3D(0.024794, -0.997053, 0.0726005, 0.0726003, 0.0742269, 0.994595, -0.997053, -0.0193892, 0.0742267, -0.618538, 1.42732, -0.0281235)
+bone_name = "J_Bip_R_Hand"
+bone_idx = 68
 use_external_skeleton = true
-external_skeleton = NodePath("../../mannyquin/godot_rig/GeneralSkeleton")
+external_skeleton = NodePath("")
 
 [node name="HandPivot" type="Marker3D" parent="EquipmentSystem/BoneAttachment3D"]
 transform = Transform3D(0, 1, 2.98023e-08, 5.96046e-08, -2.98023e-08, -1, -1, -8.9407e-08, -4.47035e-08, -2.98023e-08, 0.0951478, 0.02714)
 
 [node name="Sword" parent="EquipmentSystem/BoneAttachment3D/HandPivot" instance=ExtResource("9_5nanx")]
+visible = false
 collision_mask = 3
 
 [node name="EnemySword" parent="EquipmentSystem/BoneAttachment3D/HandPivot" instance=ExtResource("10_838sk")]
@@ -68584,7 +68565,7 @@ right_foot = NodePath("FootfallRight")
 pant_sound = ExtResource("15_jp01y")
 
 [node name="FootfallLeft" type="BoneAttachment3D" parent="FootstepSoundSystem"]
-transform = Transform3D(-0.997131, 0.0591061, 0.0109697, -0.00852192, 0.0178169, 0.990966, 0.0659936, 1.00956, 0.0159649, 0.296508, 0.102727, 0.187463)
+transform = Transform3D(-1, 8.88997e-11, -4.83106e-11, -4.83106e-11, 3.77185e-08, 1, 8.88997e-11, 1, -3.77185e-08, 0.089, 0.1037, -0.0357998)
 bone_name = "LeftFoot"
 bone_idx = 52
 use_external_skeleton = true
@@ -68598,7 +68579,7 @@ transform = Transform3D(1, 5.82077e-10, 0, 0, -4.09782e-08, -1, -1.74623e-09, 1,
 target_position = Vector3(0, -0.2, 0)
 
 [node name="FootfallRight" type="BoneAttachment3D" parent="FootstepSoundSystem"]
-transform = Transform3D(-0.97216, -0.241095, -0.0098319, 0.00939144, -0.00432661, 0.980343, -0.237769, 0.992275, -0.00887477, -0.217316, 0.108422, -0.199975)
+transform = Transform3D(-1, 8.88997e-11, -4.83106e-11, -4.83106e-11, 3.77185e-08, 1, 8.88997e-11, 1, -3.77185e-08, -0.089, 0.1037, -0.0357998)
 bone_name = "RightFoot"
 bone_idx = 56
 use_external_skeleton = true
