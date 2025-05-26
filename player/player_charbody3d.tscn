@@ -70084,7 +70084,7 @@ material = SubResource("StandardMaterial3D_ygg1y")
 size = Vector2(0.02, 0.02)
 orientation = 2
 
-[node name="PlayerCharacterBodySoulsBase" type="CharacterBody3D" node_paths=PackedStringArray("animation_tree", "weapon_system", "gadget_system", "health_system", "inventory_system") groups=["player"]]
+[node name="PlayerCharacterBodySoulsBase" type="CharacterBody3D" node_paths=PackedStringArray("animation_tree", "weapon_system", "health_system", "inventory_system") groups=["player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.38419e-07, 0)
 collision_layer = 2
 collision_mask = 3
@@ -70093,7 +70093,6 @@ floor_max_angle = 0.872665
 script = ExtResource("1_4per7")
 animation_tree = NodePath("AnimStateTree")
 weapon_system = NodePath("WeaponSystem")
-gadget_system = NodePath("")
 health_system = NodePath("HealthSystem")
 inventory_system = NodePath("InventorySystem")
 hard_landing_height = 2.0
