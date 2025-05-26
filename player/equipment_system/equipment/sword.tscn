@@ -1,10 +1,16 @@
-[gd_scene load_steps=19 format=4 uid="uid://dva7owhrl4wew"]
+[gd_scene load_steps=39 format=4 uid="uid://dva7owhrl4wew"]
 
 [ext_resource type="Script" uid="uid://b6p4dj7rsehc8" path="res://player/equipment_system/equipment/equipment_object.gd" id="1_2vkpj"]
 [ext_resource type="Script" uid="uid://dhugxxetnixsj" path="res://player/equipment_system/equipment/equipment_resource.gd" id="2_15vxs"]
 [ext_resource type="Texture2D" uid="uid://cs7u22pqlof4" path="res://player/profanegs_Profaned_Greatsword_albedo.png" id="3_xoao1"]
 [ext_resource type="Texture2D" uid="uid://by6bnc8d744bp" path="res://player/profanegs_Profaned_Greatsword_metallic-Profaned_Greatsword_roughness.png" id="4_alj4d"]
 [ext_resource type="Texture2D" uid="uid://cud3dqiq8ui35" path="res://player/profanegs_Profaned_Greatsword_normal.png" id="5_n6rhs"]
+[ext_resource type="Shader" uid="uid://dm12fxhaxf8lg" path="res://player/equipment_system/equipment/sword.tres" id="6_n6rhs"]
+[ext_resource type="Texture2D" uid="uid://i6mygvodncxy" path="res://textures/Flame01.png" id="7_7e8hl"]
+[ext_resource type="Texture2D" uid="uid://gsekvpbwe6ip" path="res://textures/Voronoi01.png" id="8_wa82b"]
+[ext_resource type="Texture2D" uid="uid://btewgq61nrs6h" path="res://textures/Flame02.png" id="9_dqmi7"]
+[ext_resource type="Shader" uid="uid://d07qohky72ifd" path="res://player/equipment_system/equipment/sword2.tres" id="9_xdglc"]
+[ext_resource type="Texture2D" uid="uid://1yq7j3yehkuu" path="res://textures/Flare00.PNG" id="10_xdglc"]
 
 [sub_resource type="Resource" id="Resource_rfg87"]
 script = ExtResource("2_15vxs")
@@ -208,6 +214,92 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_n6rhs")
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xdglc"]
+render_priority = 0
+shader = ExtResource("6_n6rhs")
+shader_parameter/Texture2DParameter = ExtResource("9_dqmi7")
+shader_parameter/Vector2Parameter2 = Vector2(1, 1)
+shader_parameter/Vector2Parameter = Vector2(0, 0)
+shader_parameter/Texture2DParameter2 = ExtResource("8_wa82b")
+shader_parameter/FloatParameter = 0.0
+
+[sub_resource type="Curve" id="Curve_fasov"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.156658, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_n1ins"]
+curve = SubResource("Curve_fasov")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_dpact"]
+resource_local_to_scene = true
+emission_shape = 1
+emission_sphere_radius = 0.2
+angle_min = -360.0
+angle_max = 365.6
+gravity = Vector3(0, 5, 0)
+damping_min = 0.532
+damping_max = 1.064
+scale_min = 0.0
+scale_max = 1.2
+scale_curve = SubResource("CurveTexture_n1ins")
+color = Color(4.01176, 1.2549, 0.623529, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_y0ivy"]
+
+[sub_resource type="Gradient" id="Gradient_fasov"]
+offsets = PackedFloat32Array(0, 0.373984, 0.677507, 0.99729)
+colors = PackedColorArray(0.972549, 0.972549, 0.972549, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_n1ins"]
+gradient = SubResource("Gradient_fasov")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_y0ivy"]
+resource_local_to_scene = true
+emission_shape = 1
+emission_sphere_radius = 0.35
+angle_min = -360.0
+angle_max = 365.6
+gravity = Vector3(0, 5, 0)
+damping_min = 0.532
+damping_max = 1.064
+scale_min = 1.5
+scale_max = 2.0
+scale_curve = SubResource("CurveTexture_n1ins")
+color = Color(0.01244, 0.000641806, 5.91454e-05, 1)
+color_ramp = SubResource("GradientTexture1D_n1ins")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fasov"]
+render_priority = 0
+shader = ExtResource("9_xdglc")
+shader_parameter/Texture2DParameter = ExtResource("10_xdglc")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7si5d"]
+emission_shape = 1
+emission_sphere_radius = 0.6
+gravity = Vector3(0, 4, 0)
+scale_min = 0.01
+scale_max = 0.12
+color = Color(4.01176, 1.2549, 0.623529, 1)
+turbulence_enabled = true
+turbulence_noise_scale = 5.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_sip06"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wa82b"]
+render_priority = 0
+shader = ExtResource("6_n6rhs")
+shader_parameter/Texture2DParameter = ExtResource("7_7e8hl")
+shader_parameter/Vector2Parameter2 = Vector2(0.25, 0.2)
+shader_parameter/Vector2Parameter = Vector2(0, 0.2)
+shader_parameter/Texture2DParameter2 = ExtResource("8_wa82b")
+shader_parameter/FloatParameter = 0.476
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_dqmi7"]
+gravity = Vector3(0, 0, 0)
+color = Color(4, 1.25, 0.6, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_xdglc"]
+
 [node name="Sword" type="Area3D"]
 collision_mask = 5
 script = ExtResource("1_2vkpj")
@@ -233,3 +325,38 @@ shape = SubResource("BoxShape3D_jk5hn")
 transform = Transform3D(-3.82729e-08, -3.57628e-07, -1, -0.875582, 1.56324e-14, 4.37114e-08, 0, 1, -3.57628e-07, 0, 0.631741, 0)
 mesh = SubResource("ArrayMesh_dqmi7")
 skeleton = NodePath("")
+
+[node name="GPUParticles3D2" type="GPUParticles3D" parent="model_28"]
+transform = Transform3D(-4.99227e-08, -1.1421, -1.98638e-20, -3.57628e-07, 1.56324e-14, 1, -1, 4.37114e-08, -3.57628e-07, 0.221417, -3.03063e-15, -8.47426e-09)
+material_override = SubResource("ShaderMaterial_xdglc")
+amount = 20
+lifetime = 1.28
+process_material = SubResource("ParticleProcessMaterial_dpact")
+draw_pass_1 = SubResource("QuadMesh_y0ivy")
+
+[node name="GPUParticles3D3" type="GPUParticles3D" parent="model_28"]
+transform = Transform3D(-4.99227e-08, -1.1421, -1.98638e-20, -3.57628e-07, 1.56324e-14, 1, -1, 4.37114e-08, -3.57628e-07, -0.299335, 4.09714e-15, 1.14564e-08)
+sorting_offset = -1.0
+material_override = SubResource("ShaderMaterial_xdglc")
+amount = 20
+lifetime = 2.56
+process_material = SubResource("ParticleProcessMaterial_y0ivy")
+draw_pass_1 = SubResource("QuadMesh_y0ivy")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="model_28"]
+sorting_offset = 1.0
+material_override = SubResource("ShaderMaterial_fasov")
+amount = 50
+lifetime = 2.0
+process_material = SubResource("ParticleProcessMaterial_7si5d")
+draw_pass_1 = SubResource("QuadMesh_sip06")
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="Node3D"]
+visible = false
+material_override = SubResource("ShaderMaterial_wa82b")
+amount = 1
+lifetime = 5.13
+process_material = SubResource("ParticleProcessMaterial_dqmi7")
+draw_pass_1 = SubResource("QuadMesh_xdglc")
